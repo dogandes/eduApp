@@ -130,3 +130,30 @@ Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-27 15:53:53 
 
 
 Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-27 15:53:53 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-27 16:09:13 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 15ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-27 16:09:13 -0500
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-10-27 16:09:13 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-27 16:09:13 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-27 16:09:13 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-27 16:09:13 -0500
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-10-27 16:09:13 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-27 16:09:13 -0500
