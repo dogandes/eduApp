@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f376611-baa6-4f2f-97d1-6c9dbc274307" name="Default" comment="" />
+    <list default="true" id="8f376611-baa6-4f2f-97d1-6c9dbc274307" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/fonts.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/fonts.css" />
+    </list>
     <ignored path="eduapp.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1382926742066" ignored="false" />
@@ -30,7 +32,7 @@
       <file leaf-file-name="fonts.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/fonts.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="544" column="23" selection-start="9661" selection-end="9661" vertical-scroll-proportion="15.890035">
+            <state line="6" column="4" selection-start="128" selection-end="128" vertical-scroll-proportion="0.17525773">
               <folding />
             </state>
           </provider>
@@ -575,7 +577,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/fonts.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="544" column="23" selection-start="9661" selection-end="9661" vertical-scroll-proportion="15.890035">
+        <state line="6" column="4" selection-start="128" selection-end="128" vertical-scroll-proportion="0.17525773">
           <folding />
         </state>
       </provider>
