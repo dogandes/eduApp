@@ -6,8 +6,3 @@ ul.li-mb0{margin-left:12px;}
 .structure{}
 .structure mark{display:inline-block; vertical-align:middle; //zoom:1; //display:inline; width:100px;}
 .substructure{display:inline-block; vertical-align:middle; //zoom:1; //display:inline; margin-left:100px; width:100px;}
-
-.subh4{margin-left:100px;}
-xmp{white-space:normal; display:inline;}
-pre{color:#595959;}
-strong{font-weight:400; color:#000;}
