@@ -2,3 +2,11 @@
 
 .li-mb0 li{padding-bottom:0; margin-bottom:0;}
 ul.li-mb0{margin-left:12px;}
+
+.structure{}
+.structure mark{display:inline-block; vertical-align:middle; width:100px;}
+.substructure{display:inline-block; vertical-align:middle; margin-left:100px; width:100px;}
+
+.subh4{margin-left:100px;}
+pre{color:#595959;}
+strong{font-weight:400; color:#000;}

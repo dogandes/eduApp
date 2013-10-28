@@ -9,7 +9,7 @@
     <file path="/Dummy.txt" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1382926742066" ignored="false" />
     <file path="/home.html.erb" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1382908124512" ignored="false" />
     <file path="/base.css" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1382927069471" ignored="false" />
-    <file path="/documentation.css" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1382928163715" ignored="false" />
+    <file path="/documentation.css" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1382929566930" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +32,7 @@
       <file leaf-file-name="documentation.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/documentation.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="265" selection-end="265" vertical-scroll-proportion="0.11950791">
+            <state line="9" column="26" selection-start="473" selection-end="473" vertical-scroll-proportion="0.2688928">
               <folding />
             </state>
           </provider>
@@ -585,7 +585,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/documentation.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="265" selection-end="265" vertical-scroll-proportion="0.11950791">
+        <state line="9" column="26" selection-start="473" selection-end="473" vertical-scroll-proportion="0.2688928">
           <folding />
         </state>
       </provider>
