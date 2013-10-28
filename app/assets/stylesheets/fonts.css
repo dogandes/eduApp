@@ -6,3 +6,47 @@ Arial,
 sans-serif;
 
 }
+.al-right{text-align:right;}
+
+.title h1{
+	line-height:31px;
+	font-size:27px;
+	text-transform:uppercase;}
+.title p{
+	font:11px/18px  "Droid Sans",
+Arial,
+sans-serif;}
+
+.sub-title h3,
+h3.sub-title{
+	font:600 18px/28px "Dosis",
+"Trebuchet MS",
+sans-serif;}
+.do-items h4{
+	font:700 12px/16px "Pt Sans",arial,
+sans-serif;
+	text-transform:uppercase;}
+.list_recent h5{
+	font:700 13px/18px "Pt Sans",arial,
+sans-serif;}
+
+.sidebar-titles{
+	font:600 13px/19px"Dosis",
+"Trebuchet MS",
+sans-serif;text-transform:uppercase;}
+
+.contact-datails{
+	font-size:11px;}
+.contact-datails h3,
+.contact-upper-form h3{
+	font:700 14px "Dosis",
+"Trebuchet MS",
+sans-serif;}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea,
+select {
+		font:11px "Arial",
+sans-serif;}
+
