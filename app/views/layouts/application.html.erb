@@ -1,14 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
   <title>Eduapp</title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-  <%= csrf_meta_tags %>
+  <!-- ~~~~~~ CSS ~~~~~~ -->
+  <link data-turbolinks-track="true" href="/assets/base.css" media="all" rel="stylesheet" />
+  <link data-turbolinks-track="true" href="/assets/colors.css" media="all" rel="stylesheet" />
+  <link data-turbolinks-track="true" href="/assets/documentation.css" media="all" rel="stylesheet" />
+  <link data-turbolinks-track="true" href="/assets/fonts.css" media="all" rel="stylesheet" />
+  <link data-turbolinks-track="true" href="/assets/ie7.css" media="all" rel="stylesheet" />
+  <link data-turbolinks-track="true" href="/assets/skeleton.css" media="all" rel="stylesheet" />
+  <link data-turbolinks-track="true" href="/assets/layout.css.erb" media="all" rel="stylesheet" />
+
+  <!-- Fancybox plugin -->
+  <link data-turbolinks-track="true" href="/assets/jqueryfancybox.css" media="all" rel="stylesheet" />
+  <link data-turbolinks-track="true" href="/assets/jquery_fancybox-buttons.css" media="all" rel="stylesheet" />
+  <link data-turbolinks-track="true" href="/assets/jquery_fancybox-thumbs.css" media="all" rel="stylesheet" />
+
 </head>
 <body>
+<%= render 'layouts/header' %>
+<div class="container" >
+  <%= yield %>
 
-<%= yield %>
-
+</div>
 </body>
 </html>
