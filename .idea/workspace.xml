@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f376611-baa6-4f2f-97d1-6c9dbc274307" name="Default" comment="" />
+    <list default="true" id="8f376611-baa6-4f2f-97d1-6c9dbc274307" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
+    </list>
     <ignored path="eduapp.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1382984133137" ignored="false" />
@@ -12,7 +15,7 @@
     <file path="/jquery.fancybox.css" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1382933069906" ignored="false" />
     <file path="/jquery.fancybox-buttons.css" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1382933375336" ignored="false" />
     <file path="/application.html.erb" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1383009202693" ignored="false" />
-    <file path="/_header.html.erb" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1383015912800" ignored="false" />
+    <file path="/_header.html.erb" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1383018355098" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,10 +35,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_header.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_header.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="117" selection-start="4189" selection-end="4189" vertical-scroll-proportion="0.5522042">
+            <state line="87" column="124" selection-start="4780" selection-end="4780" vertical-scroll-proportion="55.346153">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_footer.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/_footer.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="65" column="122" selection-start="3353" selection-end="3353" vertical-scroll-proportion="0.67053366">
               <folding />
             </state>
           </provider>
@@ -91,6 +103,7 @@
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" />
       </list>
     </option>
   </component>
@@ -587,11 +600,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/documentation.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/fonts.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -678,7 +686,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="117" selection-start="4189" selection-end="4189" vertical-scroll-proportion="0.5522042">
+        <state line="87" column="124" selection-start="4780" selection-end="4780" vertical-scroll-proportion="55.346153">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_footer.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="122" selection-start="3353" selection-end="3353" vertical-scroll-proportion="0.67053366">
           <folding />
         </state>
       </provider>
