@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f376611-baa6-4f2f-97d1-6c9dbc274307" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
-    </list>
+    <list default="true" id="8f376611-baa6-4f2f-97d1-6c9dbc274307" name="Default" comment="" />
     <ignored path="eduapp.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1382984133137" ignored="false" />
