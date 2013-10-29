@@ -14,7 +14,7 @@
     <file path="/jquery.fancybox.css" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1382933069906" ignored="false" />
     <file path="/jquery.fancybox-buttons.css" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1382933375336" ignored="false" />
     <file path="/application.html.erb" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1383009202693" ignored="false" />
-    <file path="/_header.html.erb" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1383014615142" ignored="false" />
+    <file path="/_header.html.erb" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1383015294234" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +37,7 @@
       <file leaf-file-name="_header.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="89" selection-start="4161" selection-end="4161" vertical-scroll-proportion="0.5522042">
+            <state line="82" column="107" selection-start="4179" selection-end="4179" vertical-scroll-proportion="0.5522042">
               <folding />
             </state>
           </provider>
@@ -680,7 +680,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="89" selection-start="4161" selection-end="4161" vertical-scroll-proportion="0.5522042">
+        <state line="82" column="107" selection-start="4179" selection-end="4179" vertical-scroll-proportion="0.5522042">
           <folding />
         </state>
       </provider>
