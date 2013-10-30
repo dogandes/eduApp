@@ -17,7 +17,7 @@
     <file path="/application.html.erb" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1383021265881" ignored="false" />
     <file path="/_header.html.erb" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1383018355098" ignored="false" />
     <file path="/_footer.html.erb" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1383019276871" ignored="false" />
-    <file path="/layout.css.erb" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1383161869184" ignored="false" />
+    <file path="/layout.css.erb" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1383162196748" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,7 @@
       <file leaf-file-name="_header.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="124" selection-start="4780" selection-end="4780" vertical-scroll-proportion="-0.65384614">
+            <state line="9" column="76" selection-start="594" selection-end="594" vertical-scroll-proportion="-5.8846154">
               <folding />
             </state>
           </provider>
@@ -49,7 +49,7 @@
       <file leaf-file-name="layout.css.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/layout.css.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1129" column="37" selection-start="42820" selection-end="42820" vertical-scroll-proportion="0.6068966">
+            <state line="1125" column="32" selection-start="42575" selection-end="42575" vertical-scroll-proportion="0.45057473">
               <folding />
             </state>
           </provider>
@@ -58,7 +58,7 @@
       <file leaf-file-name="_footer.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/_footer.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="70" selection-start="1220" selection-end="1220" vertical-scroll-proportion="-10.461538">
+            <state line="30" column="54" selection-start="1474" selection-end="1474" vertical-scroll-proportion="29.076923">
               <folding />
             </state>
           </provider>
@@ -698,23 +698,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_footer.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="124" selection-start="4780" selection-end="4780" vertical-scroll-proportion="-0.65384614">
+        <state line="30" column="54" selection-start="1474" selection-end="1474" vertical-scroll-proportion="29.076923">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_footer.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="70" selection-start="1220" selection-end="1220" vertical-scroll-proportion="-10.461538">
+        <state line="9" column="76" selection-start="594" selection-end="594" vertical-scroll-proportion="-5.8846154">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/layout.css.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1129" column="37" selection-start="42820" selection-end="42820" vertical-scroll-proportion="0.6068966">
+        <state line="1125" column="32" selection-start="42575" selection-end="42575" vertical-scroll-proportion="0.45057473">
           <folding />
         </state>
       </provider>
