@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f376611-baa6-4f2f-97d1-6c9dbc274307" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/layout.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/layout.css" />
+      <change type="MOVED" beforePath="C:\Sites\eduApp\app\assets\stylesheets\layout.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/layout.css.erb" />
     </list>
     <ignored path="eduapp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,19 +44,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/layout.css">
+      <file leaf-file-name="layout.css.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/layout.css.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1125" column="40" selection-start="42583" selection-end="42583" vertical-scroll-proportion="-5.8">
+            <state line="1125" column="19" selection-start="42562" selection-end="42562" vertical-scroll-proportion="0.33333334">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_footer.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_footer.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/_footer.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="26" selection-start="4151" selection-end="4151" vertical-scroll-proportion="1.235023">
+            <state line="92" column="1" selection-start="4213" selection-end="4213" vertical-scroll-proportion="-11.461538">
               <folding />
             </state>
           </provider>
@@ -66,7 +65,7 @@
       <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="41" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0">
+            <state line="14" column="30" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -86,7 +85,7 @@
       <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/application.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="62" selection-start="1220" selection-end="1220" vertical-scroll-proportion="0.0">
+            <state line="29" column="0" selection-start="1220" selection-end="1220" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -125,6 +124,7 @@
         <option value="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/layout.css" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/layout.css.erb" />
       </list>
     </option>
   </component>
@@ -655,7 +655,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="62" selection-start="1220" selection-end="1220" vertical-scroll-proportion="0.0">
+        <state line="29" column="0" selection-start="1220" selection-end="1220" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -677,7 +677,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="41" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0">
+        <state line="14" column="30" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -703,16 +703,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/layout.css">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_footer.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1125" column="40" selection-start="42583" selection-end="42583" vertical-scroll-proportion="-5.8">
+        <state line="92" column="1" selection-start="4213" selection-end="4213" vertical-scroll-proportion="-11.461538">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_footer.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/layout.css.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="26" selection-start="4151" selection-end="4151" vertical-scroll-proportion="1.235023">
+        <state line="1125" column="19" selection-start="42562" selection-end="42562" vertical-scroll-proportion="0.33333334">
           <folding />
         </state>
       </provider>
