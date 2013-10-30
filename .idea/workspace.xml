@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f376611-baa6-4f2f-97d1-6c9dbc274307" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/layout.css.erb" afterPath="$PROJECT_DIR$/app/assets/stylesheets/layout.css.erb" />
     </list>
     <ignored path="eduapp.iws" />
@@ -48,7 +49,7 @@
       <file leaf-file-name="layout.css.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/layout.css.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1667" column="34" selection-start="65734" selection-end="65734" vertical-scroll-proportion="-0.5494253">
+            <state line="1969" column="42" selection-start="76192" selection-end="76192" vertical-scroll-proportion="-18.970116">
               <folding />
             </state>
           </provider>
@@ -735,7 +736,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/layout.css.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1667" column="34" selection-start="65734" selection-end="65734" vertical-scroll-proportion="-0.5494253">
+        <state line="1969" column="42" selection-start="76192" selection-end="76192" vertical-scroll-proportion="-18.970116">
           <folding />
         </state>
       </provider>
