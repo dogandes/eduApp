@@ -4,6 +4,7 @@
     <list default="true" id="8f376611-baa6-4f2f-97d1-6c9dbc274307" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/layout.css.erb" afterPath="$PROJECT_DIR$/app/assets/stylesheets/layout.css.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="eduapp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,7 +50,7 @@
       <file leaf-file-name="layout.css.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/layout.css.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1125" column="32" selection-start="42575" selection-end="42575" vertical-scroll-proportion="0.45057473">
+            <state line="1667" column="34" selection-start="65752" selection-end="65752" vertical-scroll-proportion="-0.5494253">
               <folding />
             </state>
           </provider>
@@ -294,6 +295,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eduapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eduApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -714,7 +737,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/layout.css.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1125" column="32" selection-start="42575" selection-end="42575" vertical-scroll-proportion="0.45057473">
+        <state line="1667" column="34" selection-start="65752" selection-end="65752" vertical-scroll-proportion="-0.5494253">
           <folding />
         </state>
       </provider>

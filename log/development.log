@@ -17679,3 +17679,776 @@ Started GET "/assets/backgrounds/footer-bottom-arr.png" for 127.0.0.1 at 2013-10
 
 
 Started GET "/assets/backgrounds/footer-bg.png" for 127.0.0.1 at 2013-10-30 14:43:40 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-30 14:53:32 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 291ms
+
+ActionView::Template::Error (C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:659: syntax error, unexpected tIDENTIFIER, expecting ')'
+...:url(<%=image_path('backgrounds/recent-bg.jpg) repeat;border...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:659: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ckgrounds/recent-bg.jpg) repeat;border-top:#f2f2f2 1px solid...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:659: syntax error, unexpected tLABEL
+...cent-bg.jpg) repeat;border-top:#f2f2f2 1px solid;border-bott...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:660: syntax error, unexpected '(', expecting '}'
+...ox .hidder-left{background:url(<%=image_path('backgrounds/re...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:662: syntax error, unexpected tIDENTIFIER, expecting '}'
+...ry{background:url(<%=image_path('backgrounds/recent-bg.jpg) ...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:682: syntax error, unexpected tIDENTIFIER, expecting ')'
+...:url(<%=image_path('backgrounds/over_ico.png')).to_s); _erbo...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:682: syntax error, unexpected tSTRING_BEG, expecting '}'
+...path('backgrounds/over_ico.png')).to_s); _erbout.concat ") n...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:696: syntax error, unexpected tIDENTIFIER, expecting '}'
+...concat((image_path('backgrounds/ico/plus.png')).to_s); _erbo...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:696: syntax error, unexpected tSTRING_BEG, expecting '}'
+...path('backgrounds/ico/plus.png')).to_s); _erbout.concat ") n...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:698: syntax error, unexpected tIDENTIFIER, expecting '}'
+...concat((image_path('backgrounds/ico/minus.png')).to_s); _erb...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:698: syntax error, unexpected tSTRING_BEG, expecting '}'
+...ath('backgrounds/ico/minus.png')).to_s); _erbout.concat ");}...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:728: syntax error, unexpected tIDENTIFIER, expecting '}'
+...concat((image_path('backgrounds/ico/navi-prev.png')).to_s); ...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:728: syntax error, unexpected tSTRING_BEG, expecting '}'
+...'backgrounds/ico/navi-prev.png')).to_s); _erbout.concat ") n...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:730: syntax error, unexpected tIDENTIFIER, expecting '}'
+...concat((image_path('backgrounds/ico/navi-next.png')).to_s); ...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:730: void value expression
+...ath('backgrounds/ico/navi-next.png')).to_s); _erbout.concat ...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:730: syntax error, unexpected tSTRING_BEG, expecting '}'
+...'backgrounds/ico/navi-next.png')).to_s); _erbout.concat ");}...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:753: syntax error, unexpected tIDENTIFIER, expecting '}'
+...concat((image_path('backgrounds/sort-wrapper.png')).to_s); _...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:753: syntax error, unexpected tSTRING_BEG, expecting '}'
+...('backgrounds/sort-wrapper.png')).to_s); _erbout.concat ") n...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:822: syntax error, unexpected tIDENTIFIER, expecting '}'
+...concat((image_path('backgrounds/portfolio-over.png')).to_s);...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:822: syntax error, unexpected tSTRING_BEG, expecting '}'
+...backgrounds/portfolio-over.png')).to_s); _erbout.concat ") n...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:830: syntax error, unexpected tIDENTIFIER, expecting '}'
+...concat((image_path('backgrounds/portfolio-over-media.png'))....
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:830: syntax error, unexpected tSTRING_BEG, expecting '}'
+...ounds/portfolio-over-media.png')).to_s); _erbout.concat ");}...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:838: syntax error, unexpected tIDENTIFIER, expecting '}'
+...concat((image_path('backgrounds/progres-bar.png')).to_s); _e...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:838: syntax error, unexpected tSTRING_BEG, expecting '}'
+...h('backgrounds/progres-bar.png')).to_s); _erbout.concat ") r...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:863: syntax error, unexpected tIDENTIFIER, expecting '}'
+...concat((image_path('backgrounds/hover-tab.png')).to_s); _erb...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:863: syntax error, unexpected tSTRING_BEG, expecting '}'
+...ath('backgrounds/hover-tab.png')).to_s); _erbout.concat ") r...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:885: syntax error, unexpected tIDENTIFIER, expecting '}'
+...concat((image_path('backgrounds/ico/ico-dropdown.png')).to_s...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:885: syntax error, unexpected tSTRING_BEG, expecting '}'
+...ckgrounds/ico/ico-dropdown.png')).to_s); _erbout.concat ") n...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:908: syntax error, unexpected tIDENTIFIER, expecting '}'
+...concat((image_path('backgrounds/dbl-dott.png')).to_s); _erbo...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:908: syntax error, unexpected tSTRING_BEG, expecting '}'
+...path('backgrounds/dbl-dott.png')).to_s); _erbout.concat ") r...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:911: syntax error, unexpected tIDENTIFIER, expecting '}'
+...concat((image_path('backgrounds/dbl-dott.png')).to_s); _erbo...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:911: syntax error, unexpected tSTRING_BEG, expecting '}'
+...path('backgrounds/dbl-dott.png')).to_s); _erbout.concat ") r...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:921: syntax error, unexpected tIDENTIFIER, expecting '}'
+...concat((image_path('backgrounds/cite-sign.png')).to_s); _erb...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:921: syntax error, unexpected tSTRING_BEG, expecting '}'
+...ath('backgrounds/cite-sign.png')).to_s); _erbout.concat ") n...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:927: syntax error, unexpected tIDENTIFIER, expecting '}'
+...concat((image_path('backgrounds/dbl-dott.png')).to_s); _erbo...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:927: syntax error, unexpected tSTRING_BEG, expecting '}'
+...path('backgrounds/dbl-dott.png')).to_s); _erbout.concat ") r...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:946: syntax error, unexpected tIDENTIFIER, expecting '}'
+...concat((image_path('backgrounds/ico/note-red.png')).to_s); _...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:946: syntax error, unexpected tSTRING_BEG, expecting '}'
+...('backgrounds/ico/note-red.png')).to_s); _erbout.concat ") n...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:948: syntax error, unexpected tIDENTIFIER, expecting '}'
+...concat((image_path('backgrounds/ico/note-blue.png')).to_s); ...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:948: syntax error, unexpected tSTRING_BEG, expecting '}'
+...'backgrounds/ico/note-blue.png')).to_s); _erbout.concat ") n...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:950: syntax error, unexpected tIDENTIFIER, expecting '}'
+...concat((image_path('backgrounds/ico/note-green.png')).to_s);...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:950: syntax error, unexpected tSTRING_BEG, expecting '}'
+...backgrounds/ico/note-green.png')).to_s); _erbout.concat ") n...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:952: syntax error, unexpected tIDENTIFIER, expecting '}'
+...concat((image_path('backgrounds/ico/note-yellow.png')).to_s)...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:952: syntax error, unexpected tSTRING_BEG, expecting '}'
+...ackgrounds/ico/note-yellow.png')).to_s); _erbout.concat ") n...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:957: syntax error, unexpected tIDENTIFIER, expecting '}'
+...concat((image_path('backgrounds/ico/close-note.png')).to_s);...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:957: syntax error, unexpected tSTRING_BEG, expecting '}'
+...backgrounds/ico/close-note.png')).to_s); _erbout.concat ") n...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:979: syntax error, unexpected tIDENTIFIER, expecting '}'
+...concat((image_path('backgrounds/acc-bg.png')).to_s); _erbout...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:979: syntax error, unexpected tSTRING_BEG, expecting '}'
+...e_path('backgrounds/acc-bg.png')).to_s); _erbout.concat ") r...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:982: syntax error, unexpected tIDENTIFIER, expecting '}'
+...concat((image_path('backgrounds/ico/open-accordion.png')).to...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:982: syntax error, unexpected tSTRING_BEG, expecting '}'
+...grounds/ico/open-accordion.png')).to_s); _erbout.concat ") n...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:984: syntax error, unexpected tIDENTIFIER, expecting '}'
+...concat((image_path('backgrounds/ico/close-accordion.png')).t...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:984: syntax error, unexpected tSTRING_BEG, expecting '}'
+...rounds/ico/close-accordion.png')).to_s); _erbout.concat ");}...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:991: syntax error, unexpected tIDENTIFIER, expecting '}'
+...concat((image_path('backgrounds/dashed-li.png')).to_s); _erb...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:991: syntax error, unexpected tSTRING_BEG, expecting '}'
+...ath('backgrounds/dashed-li.png')).to_s); _erbout.concat ") r...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:995: syntax error, unexpected tIDENTIFIER, expecting '}'
+...concat((image_path('backgrounds/ico/acc-type2.png')).to_s); ...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:995: syntax error, unexpected tSTRING_BEG, expecting '}'
+...'backgrounds/ico/acc-type2.png')).to_s); _erbout.concat ") n...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:997: syntax error, unexpected tIDENTIFIER, expecting '}'
+...concat((image_path('backgrounds/ico/acc-type2-act.png')).to_...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:997: syntax error, unexpected tSTRING_BEG, expecting '}'
+...kgrounds/ico/acc-type2-act.png')).to_s); _erbout.concat ") n...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1015: syntax error, unexpected tIDENTIFIER, expecting '}'
+...concat((image_path('backgrounds/ico/toggle-max.png')).to_s);...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1015: syntax error, unexpected tSTRING_BEG, expecting '}'
+...backgrounds/ico/toggle-max.png')).to_s); _erbout.concat ") n...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1017: syntax error, unexpected tIDENTIFIER, expecting '}'
+...concat((image_path('backgrounds/ico/toggle-min.png')).to_s);...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1017: syntax error, unexpected tSTRING_BEG, expecting '}'
+...backgrounds/ico/toggle-min.png')).to_s); _erbout.concat ");}...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1026: syntax error, unexpected tIDENTIFIER, expecting '}'
+...concat((image_path('backgrounds/ico/jtoggle-max.png')).to_s)...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1026: syntax error, unexpected tSTRING_BEG, expecting '}'
+...ackgrounds/ico/jtoggle-max.png')).to_s); _erbout.concat ") n...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1028: syntax error, unexpected tIDENTIFIER, expecting '}'
+...concat((image_path('backgrounds/ico/jtoggle-min.png')).to_s)...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1028: syntax error, unexpected tSTRING_BEG, expecting '}'
+...ackgrounds/ico/jtoggle-min.png')).to_s); _erbout.concat ") n...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1039: syntax error, unexpected tIDENTIFIER, expecting '}'
+...concat((image_path('backgrounds/dbl-line.png')).to_s); _erbo...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1039: syntax error, unexpected tSTRING_BEG, expecting '}'
+...path('backgrounds/dbl-line.png')).to_s); _erbout.concat ") r...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1072: syntax error, unexpected tIDENTIFIER, expecting '}'
+...concat((image_path('backgrounds/basic-orange-bg.png')).to_s)...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1072: syntax error, unexpected tSTRING_BEG, expecting '}'
+...ackgrounds/basic-orange-bg.png')).to_s); _erbout.concat ") r...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1075: syntax error, unexpected tIDENTIFIER, expecting '}'
+...concat((image_path('backgrounds/standard-header.png')).to_s)...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1075: syntax error, unexpected tSTRING_BEG, expecting '}'
+...ackgrounds/standard-header.png')).to_s); _erbout.concat ") r...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1077: syntax error, unexpected tIDENTIFIER, expecting '}'
+...concat((image_path('backgrounds/premium-sm.png')).to_s); _er...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1077: syntax error, unexpected tSTRING_BEG, expecting '}'
+...th('backgrounds/premium-sm.png')).to_s); _erbout.concat ") r...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1079: syntax error, unexpected tIDENTIFIER, expecting '}'
+...concat((image_path('backgrounds/standard-header.png')).to_s)...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1079: syntax error, unexpected tSTRING_BEG, expecting '}'
+...ackgrounds/standard-header.png')).to_s); _erbout.concat ") r...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1096: syntax error, unexpected tIDENTIFIER, expecting '}'
+...concat((image_path('backgrounds/box-pricing.png')).to_s); _e...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1096: syntax error, unexpected tSTRING_BEG, expecting '}'
+...h('backgrounds/box-pricing.png')).to_s); _erbout.concat ") r...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1100: syntax error, unexpected tIDENTIFIER, expecting '}'
+...concat((image_path('backgrounds/header-bg.png')).to_s); _erb...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1100: syntax error, unexpected tSTRING_BEG, expecting '}'
+...ath('backgrounds/header-bg.png')).to_s); _erbout.concat ") r...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1127: syntax error, unexpected tIDENTIFIER, expecting '}'
+...concat((image_path('backgrounds/ico/addr-ico.png')).to_s); _...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1127: syntax error, unexpected tSTRING_BEG, expecting '}'
+...('backgrounds/ico/addr-ico.png')).to_s); _erbout.concat ") n...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1129: syntax error, unexpected tIDENTIFIER, expecting '}'
+...concat((image_path('backgrounds/ico/phone-ico.png')).to_s); ...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1129: syntax error, unexpected tSTRING_BEG, expecting '}'
+...'backgrounds/ico/phone-ico.png')).to_s); _erbout.concat ") n...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1133: syntax error, unexpected tIDENTIFIER, expecting '}'
+...concat((image_path('backgrounds/ico/fax-ico.png')).to_s); _e...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1133: syntax error, unexpected tSTRING_BEG, expecting '}'
+...h('backgrounds/ico/fax-ico.png')).to_s); _erbout.concat ") n...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1135: syntax error, unexpected tIDENTIFIER, expecting '}'
+...concat((image_path('backgrounds/ico/email-ico.png')).to_s); ...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1135: syntax error, unexpected tSTRING_BEG, expecting '}'
+...'backgrounds/ico/email-ico.png')).to_s); _erbout.concat ") n...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1137: syntax error, unexpected tIDENTIFIER, expecting '}'
+...concat((image_path('backgrounds/ico/site-ico.png')).to_s); _...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1137: syntax error, unexpected tSTRING_BEG, expecting '}'
+...('backgrounds/ico/site-ico.png')).to_s); _erbout.concat ") n...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1156: syntax error, unexpected tIDENTIFIER, expecting '}'
+...concat((image_path('backgrounds/ico/project-navi.png')).to_s...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1156: syntax error, unexpected tSTRING_BEG, expecting '}'
+...ckgrounds/ico/project-navi.png')).to_s); _erbout.concat ") n...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1160: syntax error, unexpected tIDENTIFIER, expecting '}'
+...concat((image_path('backgrounds/ico/project-navi.png')).to_s...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1160: syntax error, unexpected tSTRING_BEG, expecting '}'
+...ckgrounds/ico/project-navi.png')).to_s); _erbout.concat ") n...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1164: syntax error, unexpected tIDENTIFIER, expecting '}'
+...concat((image_path('backgrounds/ico/list.png')).to_s); _erbo...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1164: syntax error, unexpected tSTRING_BEG, expecting '}'
+...path('backgrounds/ico/list.png')).to_s); _erbout.concat ") n...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1189: syntax error, unexpected tIDENTIFIER, expecting '}'
+...concat((image_path('backgrounds/op35.png')).to_s); _erbout.c...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1189: syntax error, unexpected tSTRING_BEG, expecting '}'
+...age_path('backgrounds/op35.png')).to_s); _erbout.concat ");b...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1192: syntax error, unexpected tIDENTIFIER, expecting '}'
+...concat((image_path('backgrounds/navi-arr.png')).to_s); _erbo...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1192: syntax error, unexpected tSTRING_BEG, expecting '}'
+...path('backgrounds/navi-arr.png')).to_s); _erbout.concat ") n...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1209: syntax error, unexpected ')', expecting '}'
+...und:url(blue/tag-bg-hover.png')%>) no-repeat 0 -100px;}\n"
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1209: syntax error, unexpected tINTEGER, expecting keyword_do or '{' or '('
+...g-bg-hover.png')%>) no-repeat 0 -100px;}\n"
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1209: syntax error, unexpected tIDENTIFIER, expecting '}'
+...ver.png')%>) no-repeat 0 -100px;}\n"
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1209: syntax error, unexpected $undefined, expecting keyword_end
+....png')%>) no-repeat 0 -100px;}\n"
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1210: syntax error, unexpected $undefined
+; _erbout.concat ".tag-link{\n"
+                             ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1211: syntax error, unexpected $undefined, expecting '}'
+; _erbout.concat "\tposition:relative;\n"
+                   ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1211: syntax error, unexpected $undefined, expecting '}'
+; _erbout.concat "\tposition:relative;\n"
+                                       ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1212: syntax error, unexpected $undefined, expecting '}'
+; _erbout.concat "\tdisplay:inline-block;\n"
+                   ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1212: syntax error, unexpected $undefined, expecting '}'
+; _erbout.concat "\tdisplay:inline-block;\n"
+                                          ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1213: syntax error, unexpected $undefined, expecting '}'
+; _erbout.concat "\tvertical-align:top;\n"
+                   ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1213: syntax error, unexpected $undefined, expecting '}'
+; _erbout.concat "\tvertical-align:top;\n"
+                                        ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1214: syntax error, unexpected $undefined, expecting '}'
+; _erbout.concat "\twhite-space:nowrap;height:22...
+                   ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1214: syntax error, unexpected tINTEGER, expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+..."\twhite-space:nowrap;height:22px;padding:0 18px 0 6px;margi...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1214: syntax error, unexpected tINTEGER, expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+...ce:nowrap;height:22px;padding:0 18px 0 6px;margin:0 1px 12px...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1214: syntax error, unexpected tINTEGER, expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+...x;padding:0 18px 0 6px;margin:0 1px 12px 0;border-left:#e8e8...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1214: syntax error, unexpected tLABEL
+...argin:0 1px 12px 0;border-left:#e8e8e8 1px solid;border-radi...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1663: syntax error, unexpected tIDENTIFIER, expecting ')'
+...:url(<%=image_path('backgrounds/td-bg.png')).to_s); _erbout....
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1663: syntax error, unexpected tSTRING_BEG, expecting ')'
+...ge_path('backgrounds/td-bg.png')).to_s); _erbout.concat ") n...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1665: syntax error, unexpected tIDENTIFIER, expecting ')'
+...concat((image_path('backgrounds/td-bg.png')).to_s); _erbout....
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1665: syntax error, unexpected tSTRING_BEG, expecting ')'
+...ge_path('backgrounds/td-bg.png')).to_s); _erbout.concat ") n...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1672: syntax error, unexpected tIDENTIFIER, expecting ')'
+...concat((image_path('backgrounds/td-bg.png')).to_s); _erbout....
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1672: syntax error, unexpected tSTRING_BEG, expecting ')'
+...ge_path('backgrounds/td-bg.png')).to_s); _erbout.concat ") n...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1688: syntax error, unexpected tIDENTIFIER, expecting ')'
+...concat((image_path('backgrounds/darr.png')).to_s); _erbout.c...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1688: syntax error, unexpected tSTRING_BEG, expecting ')'
+...age_path('backgrounds/darr.png')).to_s); _erbout.concat ") n...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1759: syntax error, unexpected tIDENTIFIER, expecting ')'
+...concat((image_path('backgrounds/slide-home-bg.png')).to_s); ...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1759: syntax error, unexpected tSTRING_BEG, expecting ')'
+...'backgrounds/slide-home-bg.png')).to_s); _erbout.concat ") r...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1769: syntax error, unexpected tIDENTIFIER, expecting ')'
+...concat((image_path('backgrounds/ico/hsnavi.png')).to_s); _er...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1769: syntax error, unexpected tSTRING_BEG, expecting ')'
+...th('backgrounds/ico/hsnavi.png')).to_s); _erbout.concat ") n...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1787: syntax error, unexpected tIDENTIFIER, expecting ')'
+...concat((image_path('backgrounds/ico/detail.png')).to_s); _er...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1787: syntax error, unexpected tSTRING_BEG, expecting ')'
+...th('backgrounds/ico/detail.png')).to_s); _erbout.concat ") n...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1791: syntax error, unexpected tIDENTIFIER, expecting ')'
+...concat((image_path('backgrounds/ico/clean.png')).to_s); _erb...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1791: syntax error, unexpected tSTRING_BEG, expecting ')'
+...ath('backgrounds/ico/clean.png')).to_s); _erbout.concat ") n...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1794: syntax error, unexpected tIDENTIFIER, expecting ')'
+...concat((image_path('backgrounds/ico/flexible.png')).to_s); _...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1794: syntax error, unexpected tSTRING_BEG, expecting ')'
+...('backgrounds/ico/flexible.png')).to_s); _erbout.concat ") n...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1797: syntax error, unexpected tIDENTIFIER, expecting ')'
+...concat((image_path('backgrounds/ico/responsive.png')).to_s);...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1797: syntax error, unexpected tSTRING_BEG, expecting ')'
+...backgrounds/ico/responsive.png')).to_s); _erbout.concat ") n...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1800: syntax error, unexpected tIDENTIFIER, expecting ')'
+...concat((image_path('backgrounds/ico/support.png')).to_s); _e...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1800: syntax error, unexpected tSTRING_BEG, expecting ')'
+...h('backgrounds/ico/support.png')).to_s); _erbout.concat ") n...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1812: syntax error, unexpected tIDENTIFIER, expecting ')'
+...concat((image_path('backgrounds/main_rep_bg.png')).to_s); _e...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1812: syntax error, unexpected tSTRING_BEG, expecting ')'
+...h('backgrounds/main_rep_bg.png')).to_s); _erbout.concat ") r...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1815: syntax error, unexpected tIDENTIFIER, expecting ')'
+...concat((image_path('backgrounds/main_rep_bg.png')).to_s); _e...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1815: syntax error, unexpected tSTRING_BEG, expecting ')'
+...h('backgrounds/main_rep_bg.png')).to_s); _erbout.concat ") r...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1822: syntax error, unexpected tIDENTIFIER, expecting ')'
+...concat((image_path('backgrounds/ico/over-zzom.png')).to_s); ...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1822: syntax error, unexpected tSTRING_BEG, expecting ')'
+...'backgrounds/ico/over-zzom.png')).to_s); _erbout.concat ") n...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1834: syntax error, unexpected tIDENTIFIER, expecting ')'
+...concat((image_path('backgrounds/det-over.png')).to_s); _erbo...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1834: syntax error, unexpected tSTRING_BEG, expecting ')'
+...path('backgrounds/det-over.png')).to_s); _erbout.concat ") r...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1839: syntax error, unexpected tIDENTIFIER, expecting ')'
+...concat((image_path('backgrounds/ico/over-zzom.png')).to_s); ...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1839: syntax error, unexpected tSTRING_BEG, expecting ')'
+...'backgrounds/ico/over-zzom.png')).to_s); _erbout.concat ") n...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1849: syntax error, unexpected tIDENTIFIER, expecting ')'
+...concat((image_path('backgrounds/ico/over-plus.png')).to_s); ...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1849: syntax error, unexpected tSTRING_BEG, expecting ')'
+...'backgrounds/ico/over-plus.png')).to_s); _erbout.concat ");}...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1871: syntax error, unexpected tIDENTIFIER, expecting ')'
+...concat((image_path('backgrounds/ico/blog-note.png')).to_s); ...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1871: syntax error, unexpected tSTRING_BEG, expecting ')'
+...'backgrounds/ico/blog-note.png')).to_s); _erbout.concat ");}...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1872: syntax error, unexpected tIDENTIFIER, expecting ')'
+...concat((image_path('backgrounds/ico/blog-photo.png')).to_s);...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1872: syntax error, unexpected tSTRING_BEG, expecting ')'
+...backgrounds/ico/blog-photo.png')).to_s); _erbout.concat ");}...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1873: syntax error, unexpected tIDENTIFIER, expecting ')'
+...concat((image_path('backgrounds/ico/blog-audio.png')).to_s);...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1873: syntax error, unexpected tSTRING_BEG, expecting ')'
+...backgrounds/ico/blog-audio.png')).to_s); _erbout.concat ");}...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1874: syntax error, unexpected tIDENTIFIER, expecting ')'
+...concat((image_path('backgrounds/ico/blog-smth.png')).to_s); ...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1874: syntax error, unexpected tSTRING_BEG, expecting ')'
+...'backgrounds/ico/blog-smth.png')).to_s); _erbout.concat ");}...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1919: syntax error, unexpected tIDENTIFIER, expecting ')'
+...concat((image_path('backgrounds/ico/slider2-navi.png')).to_s...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1919: syntax error, unexpected tSTRING_BEG, expecting ')'
+...ckgrounds/ico/slider2-navi.png')).to_s); _erbout.concat ") n...
+...                               ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1959: syntax error, unexpected '>'
+; _erbout.concat "\tbackground-image:url(blue/menu-hov.png')%>);}\n"
+                                                              ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:1960: syntax error, unexpected tIDENTIFIER, expecting '}'
+; _erbout.concat "ul#main-menu > li > a.active{\n"
+                    ^
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:2558: syntax error, unexpected keyword_ensure, expecting '}'
+C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb:2560: syntax error, unexpected keyword_end, expecting '}'
+  (in C:/Sites/eduApp/app/assets/stylesheets/layout.css.erb)):
+    4:   <meta charset="utf-8">
+    5:   <title>Eduapp</title>
+    6: 
+    7:   <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
+    8:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    9: 
+   10:   <%= csrf_meta_tags %>
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___394086295_39076104'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.9ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.9ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (89.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-30 14:56:55 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (5.9ms)
+  Rendered layouts/_footer.html.erb (5.9ms)
+Completed 200 OK in 3817ms (Views: 3816.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2013-10-30 14:56:59 -0500
+
+
+Started GET "/assets/colors.css?body=1" for 127.0.0.1 at 2013-10-30 14:56:59 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-30 14:56:59 -0500
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-10-30 14:56:59 -0500
+
+
+Started GET "/assets/fancybox/jquery.fancybox.css?body=1" for 127.0.0.1 at 2013-10-30 14:56:59 -0500
+
+
+Started GET "/assets/documentation.css?body=1" for 127.0.0.1 at 2013-10-30 14:56:59 -0500
+
+
+Started GET "/assets/fancybox/helpers/jquery.fancybox-buttons.css?body=1" for 127.0.0.1 at 2013-10-30 14:56:59 -0500
+
+
+Started GET "/assets/fancybox/helpers/jquery.fancybox-thumbs.css?body=1" for 127.0.0.1 at 2013-10-30 14:56:59 -0500
+
+
+Started GET "/assets/fonts.css?body=1" for 127.0.0.1 at 2013-10-30 14:56:59 -0500
+
+
+Started GET "/assets/ie7.css?body=1" for 127.0.0.1 at 2013-10-30 14:56:59 -0500
+
+
+Started GET "/assets/jquery_fancybox-buttons.css?body=1" for 127.0.0.1 at 2013-10-30 14:57:00 -0500
+
+
+Started GET "/assets/jquery_fancybox-thumbs.css?body=1" for 127.0.0.1 at 2013-10-30 14:57:00 -0500
+
+
+Started GET "/assets/jqueryfancybox.css?body=1" for 127.0.0.1 at 2013-10-30 14:57:00 -0500
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-10-30 14:57:00 -0500
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2013-10-30 14:57:00 -0500
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-10-30 14:57:00 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-30 14:57:00 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-30 14:57:00 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-30 14:57:00 -0500
+
+
+Started GET "/assets/accordion/accordion.js?body=1" for 127.0.0.1 at 2013-10-30 14:57:00 -0500
+
+
+Started GET "/assets/beautymind.js?body=1" for 127.0.0.1 at 2013-10-30 14:57:00 -0500
+
+
+Started GET "/assets/fancybox/jquery.fancybox-buttons.js?body=1" for 127.0.0.1 at 2013-10-30 14:57:00 -0500
+
+
+Started GET "/assets/fancybox/jquery.fancybox-media.js?body=1" for 127.0.0.1 at 2013-10-30 14:57:00 -0500
+
+
+Started GET "/assets/fancybox/jquery.fancybox-thumbs.js?body=1" for 127.0.0.1 at 2013-10-30 14:57:00 -0500
+
+
+Started GET "/assets/fancybox/jquery.fancybox.js?body=1" for 127.0.0.1 at 2013-10-30 14:57:00 -0500
+
+
+Started GET "/assets/forms/jquery.placeholder.min.js?body=1" for 127.0.0.1 at 2013-10-30 14:57:01 -0500
+
+
+Started GET "/assets/forms/jquery.validate.js?body=1" for 127.0.0.1 at 2013-10-30 14:57:01 -0500
+
+
+Started GET "/assets/forms/jquery.validate.settings.js?body=1" for 127.0.0.1 at 2013-10-30 14:57:01 -0500
+
+
+Started GET "/assets/fancybox/jquery.fancybox.pack.js?body=1" for 127.0.0.1 at 2013-10-30 14:57:01 -0500
+
+
+Started GET "/assets/isotop/isotop.js?body=1" for 127.0.0.1 at 2013-10-30 14:57:01 -0500
+
+
+Started GET "/assets/isotop/jquery.isotope.min.js?body=1" for 127.0.0.1 at 2013-10-30 14:57:01 -0500
+
+
+Started GET "/assets/jquery.gmap.min.js?body=1" for 127.0.0.1 at 2013-10-30 14:57:01 -0500
+
+
+Started GET "/assets/lib/jquery-latest.min.js?body=1" for 127.0.0.1 at 2013-10-30 14:57:01 -0500
+
+
+Started GET "/assets/lib/jquery.backgroundPosition.js?body=1" for 127.0.0.1 at 2013-10-30 14:57:01 -0500
+
+
+Started GET "/assets/lib/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2013-10-30 14:57:01 -0500
+
+
+Started GET "/assets/lib/jquery.mousewheel-3.0.6.pack.js?body=1" for 127.0.0.1 at 2013-10-30 14:57:01 -0500
+
+
+Started GET "/assets/lib/jquery.transit.min.js?body=1" for 127.0.0.1 at 2013-10-30 14:57:01 -0500
+
+
+Started GET "/assets/lib/kinetic-v3.9.8.js?body=1" for 127.0.0.1 at 2013-10-30 14:57:01 -0500
+
+
+Started GET "/assets/lib/modernizr.js?body=1" for 127.0.0.1 at 2013-10-30 14:57:01 -0500
+
+
+Started GET "/assets/lib/respond.src.js?body=1" for 127.0.0.1 at 2013-10-30 14:57:01 -0500
+
+
+Started GET "/assets/quicksand/jquery.quicksand.js?body=1" for 127.0.0.1 at 2013-10-30 14:57:02 -0500
+
+
+Started GET "/assets/quicksand/quicksand.js?body=1" for 127.0.0.1 at 2013-10-30 14:57:02 -0500
+
+
+Started GET "/assets/slider2.js?body=1" for 127.0.0.1 at 2013-10-30 14:57:02 -0500
+
+
+Started GET "/assets/tweet/tweet.widget.js?body=1" for 127.0.0.1 at 2013-10-30 14:57:02 -0500
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-10-30 14:57:02 -0500
+
+
+Started GET "/assets/map-road.jpg" for 127.0.0.1 at 2013-10-30 14:57:02 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-30 14:57:02 -0500
+
+
+Started GET "/assets/blue/logo.png" for 127.0.0.1 at 2013-10-30 14:57:02 -0500
+
+
+Started GET "/assets/backgrounds/ico/h-ico-03.png" for 127.0.0.1 at 2013-10-30 14:57:02 -0500
+
+
+Started GET "/assets/backgrounds/ico/h-ico-04.png" for 127.0.0.1 at 2013-10-30 14:57:02 -0500
+
+
+Started GET "/assets/backgrounds/ico/h-ico-05.png" for 127.0.0.1 at 2013-10-30 14:57:02 -0500
+
+
+Started GET "/assets/backgrounds/ico/h-ico-02.png" for 127.0.0.1 at 2013-10-30 14:57:02 -0500
+
+
+Started GET "/assets/backgrounds/ico/h-ico.png" for 127.0.0.1 at 2013-10-30 14:57:02 -0500
+
+
+Started GET "/assets/backgrounds/ico/h-ico-06.png" for 127.0.0.1 at 2013-10-30 14:57:02 -0500
+
+
+Started GET "/assets/backgrounds/body_bg.png" for 127.0.0.1 at 2013-10-30 14:57:02 -0500
+
+
+Started GET "/assets/backgrounds/upper-bg.png" for 127.0.0.1 at 2013-10-30 14:57:02 -0500
+
+
+Started GET "/assets/blue/footer-logo.png" for 127.0.0.1 at 2013-10-30 14:57:03 -0500
+
+
+Started GET "/assets/44x44/latest-blog.jpg" for 127.0.0.1 at 2013-10-30 14:57:03 -0500
+
+
+Started GET "/assets/backgrounds/ico/fax-ico.png" for 127.0.0.1 at 2013-10-30 14:57:03 -0500
+
+
+Started GET "/assets/backgrounds/ico/addr-ico.png" for 127.0.0.1 at 2013-10-30 14:57:03 -0500
+
+
+Started GET "/assets/44x44/latest-blog-02.jpg" for 127.0.0.1 at 2013-10-30 14:57:03 -0500
+
+
+Started GET "/assets/backgrounds/line.png" for 127.0.0.1 at 2013-10-30 14:57:03 -0500
+
+
+Started GET "/assets/backgrounds/ico/phone-ico.png" for 127.0.0.1 at 2013-10-30 14:57:03 -0500
+
+
+Started GET "/assets/backgrounds/ico/email-ico.png" for 127.0.0.1 at 2013-10-30 14:57:03 -0500
+
+
+Started GET "/assets/backgrounds/ico/site-ico.png" for 127.0.0.1 at 2013-10-30 14:57:03 -0500
+
+
+Started GET "/assets/backgrounds/ico/up.png" for 127.0.0.1 at 2013-10-30 14:57:03 -0500
+
+
+Started GET "/assets/backgrounds/subheader.png" for 127.0.0.1 at 2013-10-30 14:57:03 -0500
+
+
+Started GET "/assets/backgrounds/ico/close-upper.png" for 127.0.0.1 at 2013-10-30 14:57:03 -0500
+
+
+Started GET "/assets/backgrounds/left_wrapper.png" for 127.0.0.1 at 2013-10-30 14:57:03 -0500
+
+
+Started GET "/assets/backgrounds/sign-bg.png" for 127.0.0.1 at 2013-10-30 14:57:04 -0500
+
+
+Started GET "/assets/blue/menu-hov.png" for 127.0.0.1 at 2013-10-30 14:57:04 -0500
+
+
+Started GET "/assets/backgrounds/shadow.png" for 127.0.0.1 at 2013-10-30 14:57:04 -0500
+
+
+Started GET "/assets/backgrounds/li_main_nav.png" for 127.0.0.1 at 2013-10-30 14:57:04 -0500
+
+
+Started GET "/assets/backgrounds/tagline.png" for 127.0.0.1 at 2013-10-30 14:57:04 -0500
+
+
+Started GET "/assets/blue/menu-act.png" for 127.0.0.1 at 2013-10-30 14:57:04 -0500
+
+
+Started GET "/assets/backgrounds/ico/search_site.png" for 127.0.0.1 at 2013-10-30 14:57:04 -0500
+
+
+Started GET "/assets/backgrounds/footer-line.png" for 127.0.0.1 at 2013-10-30 14:57:04 -0500
+
+
+Started GET "/assets/backgrounds/foooter-left.png" for 127.0.0.1 at 2013-10-30 14:57:04 -0500
+
+
+Started GET "/assets/backgrounds/footer-right.png" for 127.0.0.1 at 2013-10-30 14:57:04 -0500
+
+
+Started GET "/assets/backgrounds/footer-middle.png" for 127.0.0.1 at 2013-10-30 14:57:04 -0500
+
+
+Started GET "/assets/backgrounds/ico/marker_list2.png" for 127.0.0.1 at 2013-10-30 14:57:04 -0500
+
+
+Started GET "/assets/backgrounds/ico/arrow.png" for 127.0.0.1 at 2013-10-30 14:57:04 -0500
+
+
+Started GET "/assets/backgrounds/footer-bg.png" for 127.0.0.1 at 2013-10-30 14:57:04 -0500
+
+
+Started GET "/assets/backgrounds/footer-bottom-arr.png" for 127.0.0.1 at 2013-10-30 14:57:04 -0500
+
+
+Started GET "/assets/backgrounds/footer_menu_separator.png" for 127.0.0.1 at 2013-10-30 14:57:04 -0500
