@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f376611-baa6-4f2f-97d1-6c9dbc274307" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/eduapp.iml" afterPath="$PROJECT_DIR$/.idea/eduapp.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/layout.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/layout.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="eduapp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -14,7 +11,7 @@
     <file path="/home.html.erb" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1382908124512" ignored="false" />
     <file path="/base.css" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1382927069471" ignored="false" />
     <file path="/documentation.css" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1382929566930" ignored="false" />
-    <file path="/layout.css" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1383157401817" ignored="false" />
+    <file path="/layout.css" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1383157892218" ignored="false" />
     <file path="/jquery.fancybox.css" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1382933069906" ignored="false" />
     <file path="/jquery.fancybox-buttons.css" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1382933375336" ignored="false" />
     <file path="/application.html.erb" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1383021265881" ignored="false" />
@@ -48,19 +45,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="layout.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/layout.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1134" column="28" selection-start="43094" selection-end="43094" vertical-scroll-proportion="0.68505746">
+            <state line="1125" column="40" selection-start="42583" selection-end="42583" vertical-scroll-proportion="-5.8">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_footer.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_footer.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/_footer.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="26" selection-start="4151" selection-end="4151" vertical-scroll-proportion="-46.115383">
+            <state line="88" column="26" selection-start="4151" selection-end="4151" vertical-scroll-proportion="1.235023">
               <folding />
             </state>
           </provider>
@@ -699,13 +696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_footer.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="26" selection-start="4151" selection-end="4151" vertical-scroll-proportion="-46.115383">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="87" column="124" selection-start="4780" selection-end="4780" vertical-scroll-proportion="-0.65384614">
@@ -715,7 +705,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/layout.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1134" column="28" selection-start="43094" selection-end="43094" vertical-scroll-proportion="0.68505746">
+        <state line="1125" column="40" selection-start="42583" selection-end="42583" vertical-scroll-proportion="-5.8">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_footer.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="26" selection-start="4151" selection-end="4151" vertical-scroll-proportion="1.235023">
           <folding />
         </state>
       </provider>
