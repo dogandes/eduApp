@@ -4,7 +4,6 @@
     <list default="true" id="8f376611-baa6-4f2f-97d1-6c9dbc274307" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/layout.css.erb" afterPath="$PROJECT_DIR$/app/assets/stylesheets/layout.css.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="eduapp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -18,7 +17,7 @@
     <file path="/application.html.erb" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1383021265881" ignored="false" />
     <file path="/_header.html.erb" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1383018355098" ignored="false" />
     <file path="/_footer.html.erb" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1383019276871" ignored="false" />
-    <file path="/layout.css.erb" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1383159891558" ignored="false" />
+    <file path="/layout.css.erb" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1383161869184" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +49,7 @@
       <file leaf-file-name="layout.css.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/layout.css.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1125" column="62" selection-start="42605" selection-end="42605" vertical-scroll-proportion="0.45057473">
+            <state line="1129" column="37" selection-start="42820" selection-end="42820" vertical-scroll-proportion="0.6068966">
               <folding />
             </state>
           </provider>
@@ -59,7 +58,7 @@
       <file leaf-file-name="_footer.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/_footer.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="39" selection-start="1318" selection-end="1327" vertical-scroll-proportion="-12.423077">
+            <state line="25" column="70" selection-start="1220" selection-end="1220" vertical-scroll-proportion="-10.461538">
               <folding />
             </state>
           </provider>
@@ -708,14 +707,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_footer.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="39" selection-start="1318" selection-end="1327" vertical-scroll-proportion="-12.423077">
+        <state line="25" column="70" selection-start="1220" selection-end="1220" vertical-scroll-proportion="-10.461538">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/layout.css.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1125" column="62" selection-start="42605" selection-end="42605" vertical-scroll-proportion="0.45057473">
+        <state line="1129" column="37" selection-start="42820" selection-end="42820" vertical-scroll-proportion="0.6068966">
           <folding />
         </state>
       </provider>
