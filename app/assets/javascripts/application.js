@@ -13,6 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//
 //= require slider2
 //= require accordion/accordion
 //= require fancybox/jquery.fancybox
@@ -25,5 +26,10 @@
 //= require forms/jquery.validate.settings
 //= require isotop/isotop
 //= require isotop/jquery.isotope.min
+//= require lib/jquery.backgroundPosition
+//= require lib/jquery.easing.1.3
+//= require lib/jquery.mousewheel-3.0.6.pack
+//= require lib/jquery.transit.min
+//= require lib/jquery-latest.min
 //= require beautymind
 //= require_tree .
