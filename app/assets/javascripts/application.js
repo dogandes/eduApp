@@ -31,5 +31,10 @@
 //= require lib/jquery.mousewheel-3.0.6.pack
 //= require lib/jquery.transit.min
 //= require lib/jquery-latest.min
+//= require lib/kinetic-v3.9.8
+//= require lib/modernizr
+//= require quicksand/jquery.quicksand
+//= require quicksand/quicksand
+//= require tweet/tweet.widget
 //= require beautymind
 //= require_tree .
