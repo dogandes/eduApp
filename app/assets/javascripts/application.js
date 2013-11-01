@@ -20,5 +20,8 @@
 //= require fancybox/jquery.fancybox-buttons
 //= require fancybox/jquery.fancybox-media
 //= require fancybox/jquery.fancybox-thumbs
+//= require forms/jquery.placeholder.min
+//= require forms/jquery.validate
+//= require forms/jquery.validate.settings
 //= require beautymind
 //= require_tree .
