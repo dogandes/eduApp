@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f376611-baa6-4f2f-97d1-6c9dbc274307" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/fancybox/fancybox_loading.gif" afterPath="$PROJECT_DIR$/app/assets/images/fancybox/fancybox_loading.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/fancybox/fancybox_sprite.png" afterPath="$PROJECT_DIR$/app/assets/images/fancybox/fancybox_sprite.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/fancybox/helpers/jquery.fancybox-buttons.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/fancybox/helpers/jquery.fancybox-buttons.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/fancybox/jquery.fancybox-buttons.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/fancybox/jquery.fancybox-buttons.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/fancybox/jquery.fancybox-media.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/fancybox/jquery.fancybox-media.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/fancybox/jquery.fancybox-thumbs.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/fancybox/jquery.fancybox-thumbs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/fancybox/jquery.fancybox.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/fancybox/jquery.fancybox.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/fancybox/jquery.fancybox.pack.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/fancybox/jquery.fancybox.pack.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/jquery.gmap.min.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/jquery.gmap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/isotop/jquery.isotope.min.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/isotop/jquery.isotope.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/quicksand/jquery.quicksand.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/quicksand/jquery.quicksand.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/forms/jquery.validate.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/forms/jquery.validate.js" />
     </list>
     <ignored path="eduapp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -21,6 +30,7 @@
     <file path="/layout.css.erb" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1383162196748" ignored="false" />
     <file path="/_shim.html.erb" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1383198950583" ignored="false" />
     <file path="/application.js" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1383330555233" ignored="false" />
+    <file path="/jquery.validate.settings.js" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1383340073314" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,21 +59,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="respond.src.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/lib/respond.src.js">
+      <file leaf-file-name="beautymind.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/beautymind.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="71" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <marker date="1382983640895" expanded="false" signature="3868:3874" placeholder="..." />
+                <marker date="1382983640895" expanded="false" signature="16614:16659" placeholder="..." />
+                <marker date="1382983640895" expanded="false" signature="16673:16686" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <file leaf-file-name="jquery.gmap.min.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/jquery.gmap.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="287" selection-end="287" vertical-scroll-proportion="0.4775281">
+            <state line="33" column="83" selection-start="13217" selection-end="13217" vertical-scroll-proportion="0.5842391">
               <folding />
             </state>
           </provider>
@@ -87,11 +99,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/fonts.css" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/ie7.css" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/fancybox/jquery.fancybox.css" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/fancybox/helpers/jquery.fancybox-buttons.css" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/jquery_fancybox.css" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/jquery_fancybox-buttons.css" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
@@ -103,6 +110,11 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/lib/respond.src.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/fancybox/jquery.fancybox.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/forms/jquery.validate.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/isotop/jquery.isotope.min.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/quicksand/jquery.quicksand.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/jquery.gmap.min.js" />
       </list>
     </option>
   </component>
@@ -248,6 +260,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eduapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eduApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -500,11 +534,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26179606" sideWeight="0.6666667" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26179606" sideWeight="0.6650327" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33333334" sideWeight="0.3432268" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33333334" sideWeight="0.6567732" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33496732" sideWeight="0.3432268" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33496732" sideWeight="0.6567732" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -577,75 +611,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/boot.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environment.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.ru">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="27" selection-start="62" selection-end="62" vertical-scroll-proportion="0.04956268">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_footer.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="113" selection-start="951" selection-end="951" vertical-scroll-proportion="0.33184856">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/tweet/tweet.widget.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="1220" selection-end="1220" vertical-scroll-proportion="0.7329843">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_shim.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="259" selection-end="259" vertical-scroll-proportion="0.33426967">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/static_pages.js.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/layout.css.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1969" column="42" selection-start="76192" selection-end="76192" vertical-scroll-proportion="-22.802326">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="76" selection-start="594" selection-end="594" vertical-scroll-proportion="0.44606414">
@@ -657,17 +622,131 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/accordion/accordion.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/fancybox/jquery.fancybox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="94" selection-start="202" selection-end="202" vertical-scroll-proportion="0.32249323">
+          <folding>
+            <marker date="1383338533753" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1383338533753" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1383338533753" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1383338533753" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1383338533753" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1383338533753" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1383338533753" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1383338533753" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1383338533753" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1383338533753" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1383338533753" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1383338533753" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1383338533753" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1383338533753" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1383338533753" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1383338533753" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1383338533753" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1383338533753" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1383338533753" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1383338533753" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1383338533753" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1383338533753" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1383338533753" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1383338533753" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1383338533753" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1383338533753" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1383338533753" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1383338533753" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1383338533753" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1383338533753" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1383338533753" expanded="true" signature="-1:-1" placeholder="{&quot;position&quot;: 'fixed'...}" />
+            <marker date="1383338533753" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1383338533753" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1383338533753" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1383338533753" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1383338533753" expanded="true" signature="-1:-1" placeholder="{&quot;overlay&quot;: null...}" />
+            <marker date="1383338533753" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1383338533753" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1383338533753" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1383338533753" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1383338533753" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/forms/jquery.validate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="2" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/forms/jquery.validate.settings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="16" selection-start="410" selection-end="410" vertical-scroll-proportion="0.2670157">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="287" selection-end="287" vertical-scroll-proportion="0.4775281">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/lib/respond.src.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="71" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0">
+        <state line="9" column="71" selection-start="483" selection-end="483" vertical-scroll-proportion="0.27642277">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/isotop/jquery.isotope.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="15714" selection-start="16033" selection-end="16033" vertical-scroll-proportion="0.55284554">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/quicksand/quicksand.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.2696335">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/quicksand/jquery.quicksand.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="443" column="0" selection-start="21891" selection-end="21891" vertical-scroll-proportion="20.409214">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/isotop/isotop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/tweet/tweet.widget.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.29057592">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -678,9 +757,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/beautymind.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="287" selection-end="287" vertical-scroll-proportion="0.4775281">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1382983640895" expanded="false" signature="3868:3874" placeholder="..." />
+            <marker date="1382983640895" expanded="false" signature="16614:16659" placeholder="..." />
+            <marker date="1382983640895" expanded="false" signature="16673:16686" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/jquery.gmap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="83" selection-start="13217" selection-end="13217" vertical-scroll-proportion="0.5842391">
           <folding />
         </state>
       </provider>
