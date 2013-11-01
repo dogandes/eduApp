@@ -16,5 +16,6 @@
 //= require slider2
 //= require accordion/accordion
 //= require fancybox/jquery.fancybox
+//= require fancybox/jquery.fancybox.pack
 //= require beautymind
 //= require_tree .
