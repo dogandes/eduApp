@@ -13,5 +13,6 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require jquery.gmap.mins.js
 //= require beautymind
 //= require_tree .
