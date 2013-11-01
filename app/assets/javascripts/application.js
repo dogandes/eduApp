@@ -23,5 +23,7 @@
 //= require forms/jquery.placeholder.min
 //= require forms/jquery.validate
 //= require forms/jquery.validate.settings
+//= require isotop/isotop
+//= require isotop/jquery.isotope.min
 //= require beautymind
 //= require_tree .
