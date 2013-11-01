@@ -17,5 +17,8 @@
 //= require accordion/accordion
 //= require fancybox/jquery.fancybox
 //= require fancybox/jquery.fancybox.pack
+//= require fancybox/jquery.fancybox-buttons
+//= require fancybox/jquery.fancybox-media
+//= require fancybox/jquery.fancybox-thumbs
 //= require beautymind
 //= require_tree .
