@@ -21656,3 +21656,553 @@ Started GET "/assets/backgrounds/footer-bottom-arr.png" for 127.0.0.1 at 2013-11
 
 
 Started GET "/assets/backgrounds/footer_menu_separator.png" for 127.0.0.1 at 2013-11-01 12:30:29 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-01 12:34:50 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (5.9ms)
+  Rendered layouts/_footer.html.erb (5.9ms)
+Completed 200 OK in 347ms (Views: 345.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-01 12:34:50 -0500
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2013-11-01 12:34:51 -0500
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-11-01 12:34:51 -0500
+
+
+Started GET "/assets/colors.css?body=1" for 127.0.0.1 at 2013-11-01 12:34:51 -0500
+
+
+Started GET "/assets/documentation.css?body=1" for 127.0.0.1 at 2013-11-01 12:34:51 -0500
+
+
+Started GET "/assets/fancybox/helpers/jquery.fancybox-buttons.css?body=1" for 127.0.0.1 at 2013-11-01 12:34:51 -0500
+
+
+Started GET "/assets/fancybox/jquery.fancybox.css?body=1" for 127.0.0.1 at 2013-11-01 12:34:51 -0500
+
+
+Started GET "/assets/jquery_fancybox-buttons.css?body=1" for 127.0.0.1 at 2013-11-01 12:34:51 -0500
+
+
+Started GET "/assets/fancybox/helpers/jquery.fancybox-thumbs.css?body=1" for 127.0.0.1 at 2013-11-01 12:34:51 -0500
+
+
+Started GET "/assets/fonts.css?body=1" for 127.0.0.1 at 2013-11-01 12:34:51 -0500
+
+
+Started GET "/assets/ie7.css?body=1" for 127.0.0.1 at 2013-11-01 12:34:51 -0500
+
+
+Started GET "/assets/jquery_fancybox-thumbs.css?body=1" for 127.0.0.1 at 2013-11-01 12:34:51 -0500
+
+
+Started GET "/assets/jqueryfancybox.css?body=1" for 127.0.0.1 at 2013-11-01 12:34:51 -0500
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-11-01 12:34:51 -0500
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2013-11-01 12:34:52 -0500
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-11-01 12:34:52 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-01 12:34:52 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-01 12:34:52 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-01 12:34:52 -0500
+
+
+Started GET "/assets/slider2.js?body=1" for 127.0.0.1 at 2013-11-01 12:34:52 -0500
+
+
+Started GET "/assets/accordion/accordion.js?body=1" for 127.0.0.1 at 2013-11-01 12:34:52 -0500
+
+
+Started GET "/assets/beautymind.js?body=1" for 127.0.0.1 at 2013-11-01 12:34:52 -0500
+
+
+Started GET "/assets/fancybox/jquery.fancybox-buttons.js?body=1" for 127.0.0.1 at 2013-11-01 12:34:52 -0500
+
+
+Started GET "/assets/fancybox/jquery.fancybox-media.js?body=1" for 127.0.0.1 at 2013-11-01 12:34:52 -0500
+
+
+Started GET "/assets/fancybox/jquery.fancybox-thumbs.js?body=1" for 127.0.0.1 at 2013-11-01 12:34:52 -0500
+
+
+Started GET "/assets/fancybox/jquery.fancybox.js?body=1" for 127.0.0.1 at 2013-11-01 12:34:52 -0500
+
+
+Started GET "/assets/fancybox/jquery.fancybox.pack.js?body=1" for 127.0.0.1 at 2013-11-01 12:34:52 -0500
+
+
+Started GET "/assets/forms/jquery.placeholder.min.js?body=1" for 127.0.0.1 at 2013-11-01 12:34:52 -0500
+
+
+Started GET "/assets/forms/jquery.validate.js?body=1" for 127.0.0.1 at 2013-11-01 12:34:52 -0500
+
+
+Started GET "/assets/forms/jquery.validate.settings.js?body=1" for 127.0.0.1 at 2013-11-01 12:34:52 -0500
+
+
+Started GET "/assets/isotop/isotop.js?body=1" for 127.0.0.1 at 2013-11-01 12:34:52 -0500
+
+
+Started GET "/assets/isotop/jquery.isotope.min.js?body=1" for 127.0.0.1 at 2013-11-01 12:34:53 -0500
+
+
+Started GET "/assets/jquery.gmap.min.js?body=1" for 127.0.0.1 at 2013-11-01 12:34:53 -0500
+
+
+Started GET "/assets/lib/jquery-latest.min.js?body=1" for 127.0.0.1 at 2013-11-01 12:34:53 -0500
+
+
+Started GET "/assets/lib/jquery.transit.min.js?body=1" for 127.0.0.1 at 2013-11-01 12:34:53 -0500
+
+
+Started GET "/assets/lib/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2013-11-01 12:34:53 -0500
+
+
+Started GET "/assets/lib/jquery.backgroundPosition.js?body=1" for 127.0.0.1 at 2013-11-01 12:34:53 -0500
+
+
+Started GET "/assets/lib/jquery.mousewheel-3.0.6.pack.js?body=1" for 127.0.0.1 at 2013-11-01 12:34:53 -0500
+
+
+Started GET "/assets/lib/kinetic-v3.9.8.js?body=1" for 127.0.0.1 at 2013-11-01 12:34:53 -0500
+
+
+Started GET "/assets/lib/respond.src.js?body=1" for 127.0.0.1 at 2013-11-01 12:34:53 -0500
+
+
+Started GET "/assets/quicksand/jquery.quicksand.js?body=1" for 127.0.0.1 at 2013-11-01 12:34:53 -0500
+
+
+Started GET "/assets/lib/modernizr.js?body=1" for 127.0.0.1 at 2013-11-01 12:34:53 -0500
+
+
+Started GET "/assets/quicksand/quicksand.js?body=1" for 127.0.0.1 at 2013-11-01 12:34:53 -0500
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-11-01 12:34:53 -0500
+
+
+Started GET "/assets/tweet/tweet.widget.js?body=1" for 127.0.0.1 at 2013-11-01 12:34:53 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-01 12:34:53 -0500
+
+
+Started GET "/assets/map-road.jpg" for 127.0.0.1 at 2013-11-01 12:34:54 -0500
+
+
+Started GET "/assets/backgrounds/ico/h-ico-03.png" for 127.0.0.1 at 2013-11-01 12:34:54 -0500
+
+
+Started GET "/assets/backgrounds/ico/h-ico-04.png" for 127.0.0.1 at 2013-11-01 12:34:54 -0500
+
+
+Started GET "/assets/backgrounds/ico/h-ico-02.png" for 127.0.0.1 at 2013-11-01 12:34:54 -0500
+
+
+Started GET "/assets/backgrounds/ico/h-ico.png" for 127.0.0.1 at 2013-11-01 12:34:54 -0500
+
+
+Started GET "/assets/blue/logo.png" for 127.0.0.1 at 2013-11-01 12:34:54 -0500
+
+
+Started GET "/assets/backgrounds/ico/h-ico-05.png" for 127.0.0.1 at 2013-11-01 12:34:54 -0500
+
+
+Started GET "/assets/backgrounds/body_bg.png" for 127.0.0.1 at 2013-11-01 12:34:54 -0500
+
+
+Started GET "/assets/backgrounds/ico/h-ico-06.png" for 127.0.0.1 at 2013-11-01 12:34:55 -0500
+
+
+Started GET "/assets/44x44/latest-blog.jpg" for 127.0.0.1 at 2013-11-01 12:34:55 -0500
+
+
+Started GET "/assets/blue/footer-logo.png" for 127.0.0.1 at 2013-11-01 12:34:55 -0500
+
+
+Started GET "/assets/backgrounds/line.png" for 127.0.0.1 at 2013-11-01 12:34:55 -0500
+
+
+Started GET "/assets/backgrounds/ico/addr-ico.png" for 127.0.0.1 at 2013-11-01 12:34:55 -0500
+
+
+Started GET "/assets/backgrounds/upper-bg.png" for 127.0.0.1 at 2013-11-01 12:34:55 -0500
+
+
+Started GET "/assets/backgrounds/ico/fax-ico.png" for 127.0.0.1 at 2013-11-01 12:34:55 -0500
+
+
+Started GET "/assets/backgrounds/ico/phone-ico.png" for 127.0.0.1 at 2013-11-01 12:34:55 -0500
+
+
+Started GET "/assets/backgrounds/ico/email-ico.png" for 127.0.0.1 at 2013-11-01 12:34:55 -0500
+
+
+Started GET "/assets/backgrounds/ico/site-ico.png" for 127.0.0.1 at 2013-11-01 12:34:55 -0500
+
+
+Started GET "/assets/backgrounds/ico/up.png" for 127.0.0.1 at 2013-11-01 12:34:55 -0500
+
+
+Started GET "/assets/backgrounds/subheader.png" for 127.0.0.1 at 2013-11-01 12:34:56 -0500
+
+
+Started GET "/assets/backgrounds/ico/close-upper.png" for 127.0.0.1 at 2013-11-01 12:34:56 -0500
+
+
+Started GET "/assets/backgrounds/left_wrapper.png" for 127.0.0.1 at 2013-11-01 12:34:56 -0500
+
+
+Started GET "/assets/backgrounds/sign-bg.png" for 127.0.0.1 at 2013-11-01 12:34:56 -0500
+
+
+Started GET "/assets/backgrounds/tagline.png" for 127.0.0.1 at 2013-11-01 12:34:56 -0500
+
+
+Started GET "/assets/backgrounds/li_main_nav.png" for 127.0.0.1 at 2013-11-01 12:34:56 -0500
+
+
+Started GET "/assets/blue/menu-hov.png" for 127.0.0.1 at 2013-11-01 12:34:56 -0500
+
+
+Started GET "/assets/backgrounds/shadow.png" for 127.0.0.1 at 2013-11-01 12:34:56 -0500
+
+
+Started GET "/assets/blue/menu-act.png" for 127.0.0.1 at 2013-11-01 12:34:56 -0500
+
+
+Started GET "/assets/backgrounds/ico/search_site.png" for 127.0.0.1 at 2013-11-01 12:34:56 -0500
+
+
+Started GET "/assets/backgrounds/footer-line.png" for 127.0.0.1 at 2013-11-01 12:34:56 -0500
+
+
+Started GET "/assets/backgrounds/foooter-left.png" for 127.0.0.1 at 2013-11-01 12:34:56 -0500
+
+
+Started GET "/assets/backgrounds/footer-right.png" for 127.0.0.1 at 2013-11-01 12:34:56 -0500
+
+
+Started GET "/assets/backgrounds/footer-middle.png" for 127.0.0.1 at 2013-11-01 12:34:56 -0500
+
+
+Started GET "/assets/44x44/latest-blog-02.jpg" for 127.0.0.1 at 2013-11-01 12:34:56 -0500
+
+
+Started GET "/assets/backgrounds/ico/marker_list2.png" for 127.0.0.1 at 2013-11-01 12:34:56 -0500
+
+
+Started GET "/assets/backgrounds/ico/arrow.png" for 127.0.0.1 at 2013-11-01 12:34:57 -0500
+
+
+Started GET "/assets/backgrounds/footer-bg.png" for 127.0.0.1 at 2013-11-01 12:34:57 -0500
+
+
+Started GET "/assets/backgrounds/footer-bottom-arr.png" for 127.0.0.1 at 2013-11-01 12:34:57 -0500
+
+
+Started GET "/assets/backgrounds/footer_menu_separator.png" for 127.0.0.1 at 2013-11-01 12:34:57 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-01 12:37:57 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 244ms
+
+ActionView::Template::Error (couldn't find file 'fancybox/jquery'
+  (in C:/Sites/eduApp/app/assets/javascripts/application.js:18)):
+     5:   <title>Eduapp</title>
+     6: 
+     7:   <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
+     8:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+     9: 
+    10: 
+    11: 
+  app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___394086295_30620652'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.9ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.9ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (92.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-01 12:40:24 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (6.8ms)
+  Rendered layouts/_footer.html.erb (6.8ms)
+Completed 200 OK in 370ms (Views: 369.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2013-11-01 12:40:25 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-01 12:40:25 -0500
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-11-01 12:40:25 -0500
+
+
+Started GET "/assets/colors.css?body=1" for 127.0.0.1 at 2013-11-01 12:40:25 -0500
+
+
+Started GET "/assets/fancybox/helpers/jquery.fancybox-buttons.css?body=1" for 127.0.0.1 at 2013-11-01 12:40:25 -0500
+
+
+Started GET "/assets/fancybox/helpers/jquery.fancybox-thumbs.css?body=1" for 127.0.0.1 at 2013-11-01 12:40:25 -0500
+
+
+Started GET "/assets/documentation.css?body=1" for 127.0.0.1 at 2013-11-01 12:40:25 -0500
+
+
+Started GET "/assets/fancybox/jquery.fancybox.css?body=1" for 127.0.0.1 at 2013-11-01 12:40:25 -0500
+
+
+Started GET "/assets/fonts.css?body=1" for 127.0.0.1 at 2013-11-01 12:40:25 -0500
+
+
+Started GET "/assets/ie7.css?body=1" for 127.0.0.1 at 2013-11-01 12:40:25 -0500
+
+
+Started GET "/assets/jquery_fancybox-buttons.css?body=1" for 127.0.0.1 at 2013-11-01 12:40:25 -0500
+
+
+Started GET "/assets/jquery_fancybox-thumbs.css?body=1" for 127.0.0.1 at 2013-11-01 12:40:25 -0500
+
+
+Started GET "/assets/jqueryfancybox.css?body=1" for 127.0.0.1 at 2013-11-01 12:40:25 -0500
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-11-01 12:40:25 -0500
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2013-11-01 12:40:25 -0500
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-11-01 12:40:25 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-01 12:40:26 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-01 12:40:26 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-01 12:40:26 -0500
+
+
+Started GET "/assets/slider2.js?body=1" for 127.0.0.1 at 2013-11-01 12:40:26 -0500
+
+
+Started GET "/assets/accordion/accordion.js?body=1" for 127.0.0.1 at 2013-11-01 12:40:26 -0500
+
+
+Started GET "/assets/fancybox/jquery.fancybox.js?body=1" for 127.0.0.1 at 2013-11-01 12:40:26 -0500
+
+
+Started GET "/assets/beautymind.js?body=1" for 127.0.0.1 at 2013-11-01 12:40:26 -0500
+
+
+Started GET "/assets/fancybox/jquery.fancybox-buttons.js?body=1" for 127.0.0.1 at 2013-11-01 12:40:26 -0500
+
+
+Started GET "/assets/fancybox/jquery.fancybox-media.js?body=1" for 127.0.0.1 at 2013-11-01 12:40:26 -0500
+
+
+Started GET "/assets/fancybox/jquery.fancybox-thumbs.js?body=1" for 127.0.0.1 at 2013-11-01 12:40:26 -0500
+
+
+Started GET "/assets/fancybox/jquery.fancybox.pack.js?body=1" for 127.0.0.1 at 2013-11-01 12:40:26 -0500
+
+
+Started GET "/assets/forms/jquery.placeholder.min.js?body=1" for 127.0.0.1 at 2013-11-01 12:40:26 -0500
+
+
+Started GET "/assets/forms/jquery.validate.js?body=1" for 127.0.0.1 at 2013-11-01 12:40:26 -0500
+
+
+Started GET "/assets/forms/jquery.validate.settings.js?body=1" for 127.0.0.1 at 2013-11-01 12:40:26 -0500
+
+
+Started GET "/assets/isotop/isotop.js?body=1" for 127.0.0.1 at 2013-11-01 12:40:26 -0500
+
+
+Started GET "/assets/isotop/jquery.isotope.min.js?body=1" for 127.0.0.1 at 2013-11-01 12:40:26 -0500
+
+
+Started GET "/assets/jquery.gmap.min.js?body=1" for 127.0.0.1 at 2013-11-01 12:40:26 -0500
+
+
+Started GET "/assets/lib/jquery-latest.min.js?body=1" for 127.0.0.1 at 2013-11-01 12:40:27 -0500
+
+
+Started GET "/assets/lib/jquery.backgroundPosition.js?body=1" for 127.0.0.1 at 2013-11-01 12:40:27 -0500
+
+
+Started GET "/assets/lib/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2013-11-01 12:40:27 -0500
+
+
+Started GET "/assets/lib/jquery.mousewheel-3.0.6.pack.js?body=1" for 127.0.0.1 at 2013-11-01 12:40:27 -0500
+
+
+Started GET "/assets/lib/jquery.transit.min.js?body=1" for 127.0.0.1 at 2013-11-01 12:40:27 -0500
+
+
+Started GET "/assets/quicksand/quicksand.js?body=1" for 127.0.0.1 at 2013-11-01 12:40:27 -0500
+
+
+Started GET "/assets/lib/kinetic-v3.9.8.js?body=1" for 127.0.0.1 at 2013-11-01 12:40:27 -0500
+
+
+Started GET "/assets/quicksand/jquery.quicksand.js?body=1" for 127.0.0.1 at 2013-11-01 12:40:27 -0500
+
+
+Started GET "/assets/lib/respond.src.js?body=1" for 127.0.0.1 at 2013-11-01 12:40:27 -0500
+
+
+Started GET "/assets/lib/modernizr.js?body=1" for 127.0.0.1 at 2013-11-01 12:40:27 -0500
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-11-01 12:40:27 -0500
+
+
+Started GET "/assets/tweet/tweet.widget.js?body=1" for 127.0.0.1 at 2013-11-01 12:40:27 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-01 12:40:27 -0500
+
+
+Started GET "/assets/map-road.jpg" for 127.0.0.1 at 2013-11-01 12:40:27 -0500
+
+
+Started GET "/assets/backgrounds/ico/h-ico-02.png" for 127.0.0.1 at 2013-11-01 12:40:27 -0500
+
+
+Started GET "/assets/backgrounds/ico/h-ico-04.png" for 127.0.0.1 at 2013-11-01 12:40:28 -0500
+
+
+Started GET "/assets/backgrounds/ico/h-ico-03.png" for 127.0.0.1 at 2013-11-01 12:40:28 -0500
+
+
+Started GET "/assets/blue/logo.png" for 127.0.0.1 at 2013-11-01 12:40:28 -0500
+
+
+Started GET "/assets/backgrounds/ico/h-ico.png" for 127.0.0.1 at 2013-11-01 12:40:28 -0500
+
+
+Started GET "/assets/backgrounds/ico/h-ico-05.png" for 127.0.0.1 at 2013-11-01 12:40:28 -0500
+
+
+Started GET "/assets/backgrounds/body_bg.png" for 127.0.0.1 at 2013-11-01 12:40:28 -0500
+
+
+Started GET "/assets/backgrounds/upper-bg.png" for 127.0.0.1 at 2013-11-01 12:40:28 -0500
+
+
+Started GET "/assets/backgrounds/ico/h-ico-06.png" for 127.0.0.1 at 2013-11-01 12:40:28 -0500
+
+
+Started GET "/assets/blue/footer-logo.png" for 127.0.0.1 at 2013-11-01 12:40:28 -0500
+
+
+Started GET "/assets/44x44/latest-blog.jpg" for 127.0.0.1 at 2013-11-01 12:40:28 -0500
+
+
+Started GET "/assets/backgrounds/line.png" for 127.0.0.1 at 2013-11-01 12:40:28 -0500
+
+
+Started GET "/assets/backgrounds/ico/addr-ico.png" for 127.0.0.1 at 2013-11-01 12:40:28 -0500
+
+
+Started GET "/assets/backgrounds/ico/fax-ico.png" for 127.0.0.1 at 2013-11-01 12:40:28 -0500
+
+
+Started GET "/assets/backgrounds/ico/phone-ico.png" for 127.0.0.1 at 2013-11-01 12:40:28 -0500
+
+
+Started GET "/assets/backgrounds/ico/email-ico.png" for 127.0.0.1 at 2013-11-01 12:40:28 -0500
+
+
+Started GET "/assets/backgrounds/ico/site-ico.png" for 127.0.0.1 at 2013-11-01 12:40:28 -0500
+
+
+Started GET "/assets/backgrounds/ico/up.png" for 127.0.0.1 at 2013-11-01 12:40:28 -0500
+
+
+Started GET "/assets/backgrounds/subheader.png" for 127.0.0.1 at 2013-11-01 12:40:28 -0500
+
+
+Started GET "/assets/backgrounds/ico/close-upper.png" for 127.0.0.1 at 2013-11-01 12:40:29 -0500
+
+
+Started GET "/assets/backgrounds/left_wrapper.png" for 127.0.0.1 at 2013-11-01 12:40:29 -0500
+
+
+Started GET "/assets/backgrounds/sign-bg.png" for 127.0.0.1 at 2013-11-01 12:40:29 -0500
+
+
+Started GET "/assets/backgrounds/tagline.png" for 127.0.0.1 at 2013-11-01 12:40:29 -0500
+
+
+Started GET "/assets/backgrounds/li_main_nav.png" for 127.0.0.1 at 2013-11-01 12:40:29 -0500
+
+
+Started GET "/assets/blue/menu-hov.png" for 127.0.0.1 at 2013-11-01 12:40:29 -0500
+
+
+Started GET "/assets/backgrounds/shadow.png" for 127.0.0.1 at 2013-11-01 12:40:29 -0500
+
+
+Started GET "/assets/blue/menu-act.png" for 127.0.0.1 at 2013-11-01 12:40:29 -0500
+
+
+Started GET "/assets/backgrounds/ico/search_site.png" for 127.0.0.1 at 2013-11-01 12:40:29 -0500
+
+
+Started GET "/assets/backgrounds/footer-line.png" for 127.0.0.1 at 2013-11-01 12:40:29 -0500
+
+
+Started GET "/assets/backgrounds/foooter-left.png" for 127.0.0.1 at 2013-11-01 12:40:29 -0500
+
+
+Started GET "/assets/backgrounds/footer-right.png" for 127.0.0.1 at 2013-11-01 12:40:29 -0500
+
+
+Started GET "/assets/backgrounds/footer-middle.png" for 127.0.0.1 at 2013-11-01 12:40:29 -0500
+
+
+Started GET "/assets/44x44/latest-blog-02.jpg" for 127.0.0.1 at 2013-11-01 12:40:29 -0500
+
+
+Started GET "/assets/backgrounds/ico/marker_list2.png" for 127.0.0.1 at 2013-11-01 12:40:29 -0500
+
+
+Started GET "/assets/backgrounds/ico/arrow.png" for 127.0.0.1 at 2013-11-01 12:40:29 -0500
+
+
+Started GET "/assets/backgrounds/footer-bg.png" for 127.0.0.1 at 2013-11-01 12:40:29 -0500
+
+
+Started GET "/assets/backgrounds/footer-bottom-arr.png" for 127.0.0.1 at 2013-11-01 12:40:29 -0500
+
+
+Started GET "/assets/backgrounds/footer_menu_separator.png" for 127.0.0.1 at 2013-11-01 12:40:30 -0500

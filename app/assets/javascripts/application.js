@@ -15,5 +15,6 @@
 //= require turbolinks
 //= require slider2
 //= require accordion/accordion
+//= require fancybox/jquery.fancybox
 //= require beautymind
 //= require_tree .
