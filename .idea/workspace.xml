@@ -18,7 +18,7 @@
     <file path="/_footer.html.erb" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1383019276871" ignored="false" />
     <file path="/layout.css.erb" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1383162196748" ignored="false" />
     <file path="/_shim.html.erb" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1383198950583" ignored="false" />
-    <file path="/application.js" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1383327002471" ignored="false" />
+    <file path="/application.js" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1383327229687" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +41,7 @@
       <file leaf-file-name="application.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="19" selection-start="664" selection-end="664" vertical-scroll-proportion="0.66753924">
+            <state line="16" column="31" selection-start="696" selection-end="696" vertical-scroll-proportion="0.7120419">
               <folding />
             </state>
           </provider>
@@ -274,6 +274,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tweet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eduapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eduApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="accordion" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -698,7 +724,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="19" selection-start="664" selection-end="664" vertical-scroll-proportion="0.66753924">
+        <state line="16" column="31" selection-start="696" selection-end="696" vertical-scroll-proportion="0.7120419">
           <folding />
         </state>
       </provider>
