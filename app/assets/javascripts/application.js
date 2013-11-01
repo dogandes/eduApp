@@ -13,6 +13,6 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require jquery.gmap.mins.js
+//= require slider2
 //= require beautymind
 //= require_tree .
