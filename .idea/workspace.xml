@@ -42,12 +42,14 @@
       <change type="DELETED" beforePath="C:\Sites\eduApp\app\assets\javascripts\quicksand\quicksand.js" afterPath="" />
       <change type="DELETED" beforePath="C:\Sites\eduApp\app\assets\javascripts\slider2.js" afterPath="" />
       <change type="DELETED" beforePath="C:\Sites\eduApp\app\assets\javascripts\tweet\tweet.widget.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" afterPath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="eduapp.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1383156869433" ignored="false" />
-    <file path="/home.html.erb" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1383363946294" ignored="false" />
+    <file path="/home.html.erb" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1383364743065" ignored="false" />
     <file path="/base.css" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1382927069471" ignored="false" />
     <file path="/documentation.css" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1382929566930" ignored="false" />
     <file path="/layout.css" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1383157892218" ignored="false" />
@@ -92,7 +94,7 @@
       <file leaf-file-name="home.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/static_pages/home.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="112" selection-start="824" selection-end="824" vertical-scroll-proportion="0.7838617">
+            <state line="16" column="81" selection-start="794" selection-end="794" vertical-scroll-proportion="0.6368876">
               <folding />
             </state>
           </provider>
@@ -720,7 +722,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/static_pages/home.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="112" selection-start="824" selection-end="824" vertical-scroll-proportion="0.7838617">
+        <state line="16" column="81" selection-start="794" selection-end="794" vertical-scroll-proportion="0.6368876">
           <folding />
         </state>
       </provider>
