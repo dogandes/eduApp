@@ -42,7 +42,6 @@
       <change type="DELETED" beforePath="C:\Sites\eduApp\app\assets\javascripts\quicksand\quicksand.js" afterPath="" />
       <change type="DELETED" beforePath="C:\Sites\eduApp\app\assets\javascripts\slider2.js" afterPath="" />
       <change type="DELETED" beforePath="C:\Sites\eduApp\app\assets\javascripts\tweet\tweet.widget.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" afterPath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" />
     </list>
     <ignored path="eduapp.iws" />
@@ -93,7 +92,7 @@
       <file leaf-file-name="home.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/static_pages/home.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="84" selection-start="797" selection-end="797" vertical-scroll-proportion="0.685879">
+            <state line="16" column="74" selection-start="787" selection-end="787" vertical-scroll-proportion="0.39193085">
               <folding />
             </state>
           </provider>
@@ -721,7 +720,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/static_pages/home.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="84" selection-start="797" selection-end="797" vertical-scroll-proportion="0.685879">
+        <state line="16" column="74" selection-start="787" selection-end="787" vertical-scroll-proportion="0.39193085">
           <folding />
         </state>
       </provider>
