@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8f376611-baa6-4f2f-97d1-6c9dbc274307" name="Default" comment="">
       <change type="DELETED" beforePath="C:\Sites\eduApp\app\assets\javascripts\accordion\accordion.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\eduApp\app\assets\javascripts\application.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\eduApp\app\assets\javascripts\beautymind.js" afterPath="" />
       <change type="DELETED" beforePath="C:\Sites\eduApp\app\assets\javascripts\fancybox\helpers\jquery.fancybox-buttons.js" afterPath="" />
       <change type="DELETED" beforePath="C:\Sites\eduApp\app\assets\javascripts\fancybox\helpers\jquery.fancybox-media.js" afterPath="" />
       <change type="DELETED" beforePath="C:\Sites\eduApp\app\assets\javascripts\fancybox\helpers\jquery.fancybox-thumbs.js" afterPath="" />
@@ -40,16 +42,16 @@
       <change type="DELETED" beforePath="C:\Sites\eduApp\app\assets\javascripts\quicksand\jquery.quicksand.js" afterPath="" />
       <change type="DELETED" beforePath="C:\Sites\eduApp\app\assets\javascripts\quicksand\quicksand.js" afterPath="" />
       <change type="DELETED" beforePath="C:\Sites\eduApp\app\assets\javascripts\slider2.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\eduApp\app\assets\javascripts\static_pages.js.coffee" afterPath="" />
       <change type="DELETED" beforePath="C:\Sites\eduApp\app\assets\javascripts\tweet\tweet.widget.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" afterPath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" />
     </list>
     <ignored path="eduapp.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1383156869433" ignored="false" />
-    <file path="/home.html.erb" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1383420530270" ignored="false" />
+    <file path="/home.html.erb" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1383422062793" ignored="false" />
     <file path="/base.css" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1382927069471" ignored="false" />
     <file path="/documentation.css" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1382929566930" ignored="false" />
     <file path="/layout.css" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1383157892218" ignored="false" />
@@ -94,7 +96,7 @@
       <file leaf-file-name="home.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/static_pages/home.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="168" column="90" selection-start="12411" selection-end="12411" vertical-scroll-proportion="-102.0">
+            <state line="114" column="29" selection-start="7448" selection-end="7448" vertical-scroll-proportion="-21.857143">
               <folding />
             </state>
           </provider>
@@ -112,7 +114,7 @@
       <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="2" selection-start="273" selection-end="273" vertical-scroll-proportion="0.40189126">
+            <state line="7" column="75" selection-start="192" selection-end="192" vertical-scroll-proportion="0.28132388">
               <folding />
             </state>
           </provider>
@@ -167,8 +169,8 @@
         <option value="$PROJECT_DIR$/app/views/static_pages/contact.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-        <option value="$PROJECT_DIR$/app/views/static_pages/home.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/static_pages/home.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       </list>
     </option>
@@ -305,28 +307,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eduapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eduApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -574,7 +554,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1376" height="744" extended-state="1" />
+    <frame x="-8" y="-8" width="1376" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -714,20 +694,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="22" selection-start="621" selection-end="621" vertical-scroll-proportion="0.6021798">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/static_pages/home.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="168" column="90" selection-start="12411" selection-end="12411" vertical-scroll-proportion="-102.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="96" column="6" selection-start="4956" selection-end="4956" vertical-scroll-proportion="-62.76923">
@@ -742,9 +708,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/static_pages/home.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="114" column="29" selection-start="7448" selection-end="7448" vertical-scroll-proportion="-21.857143">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="2" selection-start="273" selection-end="273" vertical-scroll-proportion="0.40189126">
+        <state line="7" column="75" selection-start="192" selection-end="192" vertical-scroll-proportion="0.28132388">
           <folding />
         </state>
       </provider>
