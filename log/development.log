@@ -64379,3 +64379,702 @@ ActionController::RoutingError (No route matches [GET] "/portfolio-page.html"):
 
 
 Started GET "/assets/backgrounds/ico/over-plus.png" for 127.0.0.1 at 2013-11-02 14:31:17 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-02 14:38:02 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (18.6ms)
+  Rendered layouts/_header.html.erb (6.8ms)
+  Rendered layouts/_footer.html.erb (6.8ms)
+Completed 200 OK in 87ms (Views: 85.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-02 14:38:02 -0500
+
+
+Started GET "/assets/fancybox/helpers/jquery.fancybox-buttons.css?body=1" for 127.0.0.1 at 2013-11-02 14:38:02 -0500
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2013-11-02 14:38:02 -0500
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-11-02 14:38:02 -0500
+
+
+Started GET "/assets/documentation.css?body=1" for 127.0.0.1 at 2013-11-02 14:38:02 -0500
+
+
+Started GET "/assets/colors.css?body=1" for 127.0.0.1 at 2013-11-02 14:38:02 -0500
+
+
+Started GET "/assets/fancybox/helpers/jquery.fancybox-thumbs.css?body=1" for 127.0.0.1 at 2013-11-02 14:38:02 -0500
+
+
+Started GET "/assets/fancybox/jquery.fancybox.css?body=1" for 127.0.0.1 at 2013-11-02 14:38:02 -0500
+
+
+Started GET "/assets/fonts.css?body=1" for 127.0.0.1 at 2013-11-02 14:38:02 -0500
+
+
+Started GET "/assets/ie7.css?body=1" for 127.0.0.1 at 2013-11-02 14:38:02 -0500
+
+
+Started GET "/assets/jquery_fancybox-buttons.css?body=1" for 127.0.0.1 at 2013-11-02 14:38:03 -0500
+
+
+Started GET "/assets/jquery_fancybox-thumbs.css?body=1" for 127.0.0.1 at 2013-11-02 14:38:03 -0500
+
+
+Started GET "/assets/jqueryfancybox.css?body=1" for 127.0.0.1 at 2013-11-02 14:38:03 -0500
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-11-02 14:38:03 -0500
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2013-11-02 14:38:03 -0500
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-11-02 14:38:03 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-02 14:38:03 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-02 14:38:03 -0500
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-11-02 14:38:03 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-02 14:38:03 -0500
+
+
+Started GET "/assets/map-road.jpg" for 127.0.0.1 at 2013-11-02 14:38:03 -0500
+
+
+Started GET "/assets/backgrounds/ico/h-ico-02.png" for 127.0.0.1 at 2013-11-02 14:38:04 -0500
+
+
+Started GET "/assets/backgrounds/ico/h-ico-03.png" for 127.0.0.1 at 2013-11-02 14:38:04 -0500
+
+
+Started GET "/assets/blue/logo.png" for 127.0.0.1 at 2013-11-02 14:38:04 -0500
+
+
+Started GET "/assets/backgrounds/body_bg.png" for 127.0.0.1 at 2013-11-02 14:38:04 -0500
+
+
+Started GET "/assets/backgrounds/ico/h-ico.png" for 127.0.0.1 at 2013-11-02 14:38:04 -0500
+
+
+Started GET "/assets/backgrounds/ico/h-ico-04.png" for 127.0.0.1 at 2013-11-02 14:38:04 -0500
+
+
+Started GET "/assets/backgrounds/wrapper-bg-ghrome.png" for 127.0.0.1 at 2013-11-02 14:38:04 -0500
+
+
+Started GET "/assets/backgrounds/upper-bg.png" for 127.0.0.1 at 2013-11-02 14:38:04 -0500
+
+
+Started GET "/assets/backgrounds/line.png" for 127.0.0.1 at 2013-11-02 14:38:04 -0500
+
+
+Started GET "/assets/backgrounds/ico/fax-ico.png" for 127.0.0.1 at 2013-11-02 14:38:04 -0500
+
+
+Started GET "/assets/backgrounds/ico/addr-ico.png" for 127.0.0.1 at 2013-11-02 14:38:04 -0500
+
+
+Started GET "/assets/backgrounds/ico/phone-ico.png" for 127.0.0.1 at 2013-11-02 14:38:04 -0500
+
+
+Started GET "/assets/backgrounds/ico/email-ico.png" for 127.0.0.1 at 2013-11-02 14:38:04 -0500
+
+
+Started GET "/assets/backgrounds/ico/site-ico.png" for 127.0.0.1 at 2013-11-02 14:38:04 -0500
+
+
+Started GET "/assets/backgrounds/ico/up.png" for 127.0.0.1 at 2013-11-02 14:38:04 -0500
+
+
+Started GET "/assets/backgrounds/subheader.png" for 127.0.0.1 at 2013-11-02 14:38:04 -0500
+
+
+Started GET "/assets/backgrounds/ico/close-upper.png" for 127.0.0.1 at 2013-11-02 14:38:05 -0500
+
+
+Started GET "/assets/backgrounds/left_wrapper.png" for 127.0.0.1 at 2013-11-02 14:38:05 -0500
+
+
+Started GET "/assets/backgrounds/sign-bg.png" for 127.0.0.1 at 2013-11-02 14:38:05 -0500
+
+
+Started GET "/assets/backgrounds/tagline.png" for 127.0.0.1 at 2013-11-02 14:38:05 -0500
+
+
+Started GET "/assets/backgrounds/li_main_nav.png" for 127.0.0.1 at 2013-11-02 14:38:05 -0500
+
+
+Started GET "/assets/blue/menu-hov.png" for 127.0.0.1 at 2013-11-02 14:38:05 -0500
+
+
+Started GET "/assets/backgrounds/shadow.png" for 127.0.0.1 at 2013-11-02 14:38:05 -0500
+
+
+Started GET "/assets/blue/menu-act.png" for 127.0.0.1 at 2013-11-02 14:38:05 -0500
+
+
+Started GET "/assets/backgrounds/ico/search_site.png" for 127.0.0.1 at 2013-11-02 14:38:05 -0500
+
+
+Started GET "/assets/backgrounds/slide-home-bg.png" for 127.0.0.1 at 2013-11-02 14:38:05 -0500
+
+
+Started GET "/assets/217x116/thumb-05.jpg" for 127.0.0.1 at 2013-11-02 14:38:05 -0500
+
+
+Started GET "/assets/217x116/thumb-06.jpg" for 127.0.0.1 at 2013-11-02 14:38:05 -0500
+
+
+Started GET "/assets/backgrounds/ico/clean.png" for 127.0.0.1 at 2013-11-02 14:38:05 -0500
+
+
+Started GET "/assets/backgrounds/ico/detail.png" for 127.0.0.1 at 2013-11-02 14:38:05 -0500
+
+
+Started GET "/assets/backgrounds/ico/flexible.png" for 127.0.0.1 at 2013-11-02 14:38:05 -0500
+
+
+Started GET "/assets/backgrounds/ico/responsive.png" for 127.0.0.1 at 2013-11-02 14:38:05 -0500
+
+
+Started GET "/assets/backgrounds/ico/support.png" for 127.0.0.1 at 2013-11-02 14:38:05 -0500
+
+
+Started GET "/assets/backgrounds/ico/over-zzom.png" for 127.0.0.1 at 2013-11-02 14:38:06 -0500
+
+
+Started GET "/assets/460x287/portfolio-460x287-01.jpg" for 127.0.0.1 at 2013-11-02 14:38:06 -0500
+
+
+Started GET "/assets/backgrounds/det-over.png" for 127.0.0.1 at 2013-11-02 14:38:06 -0500
+
+
+Started GET "/assets/460x287/portfolio-460x287-02.jpg" for 127.0.0.1 at 2013-11-02 14:38:06 -0500
+
+
+Started GET "/assets/460x287/portfolio-460x287-03.jpg" for 127.0.0.1 at 2013-11-02 14:38:06 -0500
+
+
+Started GET "/assets/460x287/portfolio-460x287-04.jpg" for 127.0.0.1 at 2013-11-02 14:38:06 -0500
+
+
+Started GET "/assets/460x287/portfolio-460x287-05.jpg" for 127.0.0.1 at 2013-11-02 14:38:06 -0500
+
+
+Started GET "/assets/460x287/portfolio-460x287-06.jpg" for 127.0.0.1 at 2013-11-02 14:38:06 -0500
+
+
+Started GET "/assets/460x287/portfolio-460x287-07.jpg" for 127.0.0.1 at 2013-11-02 14:38:06 -0500
+
+
+Started GET "/assets/460x287/portfolio-460x287-08.jpg" for 127.0.0.1 at 2013-11-02 14:38:06 -0500
+
+
+Started GET "/assets/460x287/portfolio-460x287-09.jpg" for 127.0.0.1 at 2013-11-02 14:38:06 -0500
+
+
+Started GET "/assets/460x287/portfolio-460x287-10.jpg" for 127.0.0.1 at 2013-11-02 14:38:06 -0500
+
+
+Started GET "/assets/backgrounds/footer-line.png" for 127.0.0.1 at 2013-11-02 14:38:06 -0500
+
+
+Started GET "/assets/blue/footer-logo.png" for 127.0.0.1 at 2013-11-02 14:38:06 -0500
+
+
+Started GET "/assets/44x44/latest-blog.jpg" for 127.0.0.1 at 2013-11-02 14:38:06 -0500
+
+
+Started GET "/assets/backgrounds/ico/arrow.png" for 127.0.0.1 at 2013-11-02 14:38:06 -0500
+
+
+Started GET "/assets/backgrounds/footer-bg.png" for 127.0.0.1 at 2013-11-02 14:38:07 -0500
+
+
+Started GET "/assets/backgrounds/ico/h-ico-05.png" for 127.0.0.1 at 2013-11-02 14:38:07 -0500
+
+
+Started GET "/assets/217x116/thumb-02.jpg" for 127.0.0.1 at 2013-11-02 14:38:07 -0500
+
+
+Started GET "/assets/217x116/thumb-03.jpg" for 127.0.0.1 at 2013-11-02 14:38:07 -0500
+
+
+Started GET "/assets/217x116/thumb-04.jpg" for 127.0.0.1 at 2013-11-02 14:38:07 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-02 14:40:37 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (13.7ms)
+  Rendered layouts/_header.html.erb (5.9ms)
+  Rendered layouts/_footer.html.erb (9.8ms)
+Completed 200 OK in 85ms (Views: 84.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-02 14:40:37 -0500
+
+
+Started GET "/assets/colors.css?body=1" for 127.0.0.1 at 2013-11-02 14:40:38 -0500
+
+
+Started GET "/assets/documentation.css?body=1" for 127.0.0.1 at 2013-11-02 14:40:38 -0500
+
+
+Started GET "/assets/fancybox/helpers/jquery.fancybox-buttons.css?body=1" for 127.0.0.1 at 2013-11-02 14:40:38 -0500
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2013-11-02 14:40:38 -0500
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-11-02 14:40:38 -0500
+
+
+Started GET "/assets/fancybox/helpers/jquery.fancybox-thumbs.css?body=1" for 127.0.0.1 at 2013-11-02 14:40:38 -0500
+
+
+Started GET "/assets/fancybox/jquery.fancybox.css?body=1" for 127.0.0.1 at 2013-11-02 14:40:38 -0500
+
+
+Started GET "/assets/fonts.css?body=1" for 127.0.0.1 at 2013-11-02 14:40:38 -0500
+
+
+Started GET "/assets/ie7.css?body=1" for 127.0.0.1 at 2013-11-02 14:40:38 -0500
+
+
+Started GET "/assets/jquery_fancybox-buttons.css?body=1" for 127.0.0.1 at 2013-11-02 14:40:38 -0500
+
+
+Started GET "/assets/jquery_fancybox-thumbs.css?body=1" for 127.0.0.1 at 2013-11-02 14:40:38 -0500
+
+
+Started GET "/assets/jqueryfancybox.css?body=1" for 127.0.0.1 at 2013-11-02 14:40:38 -0500
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-11-02 14:40:38 -0500
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2013-11-02 14:40:38 -0500
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-11-02 14:40:38 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-02 14:40:38 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-02 14:40:38 -0500
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-11-02 14:40:39 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-02 14:40:39 -0500
+
+
+Started GET "/assets/map-road.jpg" for 127.0.0.1 at 2013-11-02 14:40:39 -0500
+
+
+Started GET "/assets/backgrounds/body_bg.png" for 127.0.0.1 at 2013-11-02 14:40:39 -0500
+
+
+Started GET "/assets/blue/logo.png" for 127.0.0.1 at 2013-11-02 14:40:39 -0500
+
+
+Started GET "/assets/backgrounds/ico/h-ico.png" for 127.0.0.1 at 2013-11-02 14:40:39 -0500
+
+
+Started GET "/assets/backgrounds/ico/h-ico-02.png" for 127.0.0.1 at 2013-11-02 14:40:39 -0500
+
+
+Started GET "/assets/backgrounds/ico/h-ico-03.png" for 127.0.0.1 at 2013-11-02 14:40:39 -0500
+
+
+Started GET "/assets/backgrounds/ico/h-ico-04.png" for 127.0.0.1 at 2013-11-02 14:40:39 -0500
+
+
+Started GET "/assets/backgrounds/wrapper-bg-ghrome.png" for 127.0.0.1 at 2013-11-02 14:40:39 -0500
+
+
+Started GET "/assets/backgrounds/upper-bg.png" for 127.0.0.1 at 2013-11-02 14:40:40 -0500
+
+
+Started GET "/assets/backgrounds/line.png" for 127.0.0.1 at 2013-11-02 14:40:40 -0500
+
+
+Started GET "/assets/backgrounds/ico/addr-ico.png" for 127.0.0.1 at 2013-11-02 14:40:40 -0500
+
+
+Started GET "/assets/backgrounds/ico/fax-ico.png" for 127.0.0.1 at 2013-11-02 14:40:40 -0500
+
+
+Started GET "/assets/backgrounds/ico/phone-ico.png" for 127.0.0.1 at 2013-11-02 14:40:40 -0500
+
+
+Started GET "/assets/backgrounds/ico/email-ico.png" for 127.0.0.1 at 2013-11-02 14:40:40 -0500
+
+
+Started GET "/assets/backgrounds/ico/site-ico.png" for 127.0.0.1 at 2013-11-02 14:40:40 -0500
+
+
+Started GET "/assets/backgrounds/ico/up.png" for 127.0.0.1 at 2013-11-02 14:40:40 -0500
+
+
+Started GET "/assets/backgrounds/subheader.png" for 127.0.0.1 at 2013-11-02 14:40:40 -0500
+
+
+Started GET "/assets/backgrounds/ico/close-upper.png" for 127.0.0.1 at 2013-11-02 14:40:40 -0500
+
+
+Started GET "/assets/backgrounds/left_wrapper.png" for 127.0.0.1 at 2013-11-02 14:40:40 -0500
+
+
+Started GET "/assets/backgrounds/sign-bg.png" for 127.0.0.1 at 2013-11-02 14:40:40 -0500
+
+
+Started GET "/assets/backgrounds/tagline.png" for 127.0.0.1 at 2013-11-02 14:40:40 -0500
+
+
+Started GET "/assets/backgrounds/li_main_nav.png" for 127.0.0.1 at 2013-11-02 14:40:40 -0500
+
+
+Started GET "/assets/blue/menu-hov.png" for 127.0.0.1 at 2013-11-02 14:40:40 -0500
+
+
+Started GET "/assets/backgrounds/shadow.png" for 127.0.0.1 at 2013-11-02 14:40:40 -0500
+
+
+Started GET "/assets/blue/menu-act.png" for 127.0.0.1 at 2013-11-02 14:40:40 -0500
+
+
+Started GET "/assets/backgrounds/ico/search_site.png" for 127.0.0.1 at 2013-11-02 14:40:40 -0500
+
+
+Started GET "/assets/backgrounds/slide-home-bg.png" for 127.0.0.1 at 2013-11-02 14:40:41 -0500
+
+
+Started GET "/assets/217x116/thumb-05.jpg" for 127.0.0.1 at 2013-11-02 14:40:41 -0500
+
+
+Started GET "/assets/217x116/thumb-06.jpg" for 127.0.0.1 at 2013-11-02 14:40:41 -0500
+
+
+Started GET "/assets/backgrounds/ico/clean.png" for 127.0.0.1 at 2013-11-02 14:40:41 -0500
+
+
+Started GET "/assets/backgrounds/ico/detail.png" for 127.0.0.1 at 2013-11-02 14:40:41 -0500
+
+
+Started GET "/assets/backgrounds/ico/flexible.png" for 127.0.0.1 at 2013-11-02 14:40:41 -0500
+
+
+Started GET "/assets/backgrounds/ico/responsive.png" for 127.0.0.1 at 2013-11-02 14:40:41 -0500
+
+
+Started GET "/assets/backgrounds/ico/support.png" for 127.0.0.1 at 2013-11-02 14:40:41 -0500
+
+
+Started GET "/assets/backgrounds/ico/over-zzom.png" for 127.0.0.1 at 2013-11-02 14:40:41 -0500
+
+
+Started GET "/assets/460x287/portfolio-460x287-01.jpg" for 127.0.0.1 at 2013-11-02 14:40:41 -0500
+
+
+Started GET "/assets/backgrounds/det-over.png" for 127.0.0.1 at 2013-11-02 14:40:41 -0500
+
+
+Started GET "/assets/460x287/portfolio-460x287-02.jpg" for 127.0.0.1 at 2013-11-02 14:40:41 -0500
+
+
+Started GET "/assets/460x287/portfolio-460x287-03.jpg" for 127.0.0.1 at 2013-11-02 14:40:41 -0500
+
+
+Started GET "/assets/460x287/portfolio-460x287-04.jpg" for 127.0.0.1 at 2013-11-02 14:40:41 -0500
+
+
+Started GET "/assets/460x287/portfolio-460x287-05.jpg" for 127.0.0.1 at 2013-11-02 14:40:41 -0500
+
+
+Started GET "/assets/460x287/portfolio-460x287-06.jpg" for 127.0.0.1 at 2013-11-02 14:40:42 -0500
+
+
+Started GET "/assets/460x287/portfolio-460x287-07.jpg" for 127.0.0.1 at 2013-11-02 14:40:42 -0500
+
+
+Started GET "/assets/460x287/portfolio-460x287-08.jpg" for 127.0.0.1 at 2013-11-02 14:40:42 -0500
+
+
+Started GET "/assets/460x287/portfolio-460x287-09.jpg" for 127.0.0.1 at 2013-11-02 14:40:42 -0500
+
+
+Started GET "/assets/460x287/portfolio-460x287-10.jpg" for 127.0.0.1 at 2013-11-02 14:40:42 -0500
+
+
+Started GET "/assets/backgrounds/footer-line.png" for 127.0.0.1 at 2013-11-02 14:40:42 -0500
+
+
+Started GET "/assets/blue/footer-logo.png" for 127.0.0.1 at 2013-11-02 14:40:42 -0500
+
+
+Started GET "/assets/44x44/latest-blog.jpg" for 127.0.0.1 at 2013-11-02 14:40:42 -0500
+
+
+Started GET "/assets/backgrounds/ico/arrow.png" for 127.0.0.1 at 2013-11-02 14:40:42 -0500
+
+
+Started GET "/assets/backgrounds/footer-bg.png" for 127.0.0.1 at 2013-11-02 14:40:42 -0500
+
+
+Started GET "/assets/backgrounds/ico/h-ico-05.png" for 127.0.0.1 at 2013-11-02 14:40:42 -0500
+
+
+Started GET "/assets/217x116/thumb-02.jpg" for 127.0.0.1 at 2013-11-02 14:40:42 -0500
+
+
+Started GET "/assets/217x116/thumb-03.jpg" for 127.0.0.1 at 2013-11-02 14:40:42 -0500
+
+
+Started GET "/assets/217x116/thumb-04.jpg" for 127.0.0.1 at 2013-11-02 14:40:42 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-02 14:42:34 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (14.6ms)
+  Rendered layouts/_header.html.erb (8.8ms)
+  Rendered layouts/_footer.html.erb (9.8ms)
+Completed 200 OK in 90ms (Views: 87.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-02 14:42:34 -0500
+
+
+Started GET "/assets/colors.css?body=1" for 127.0.0.1 at 2013-11-02 14:42:35 -0500
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2013-11-02 14:42:35 -0500
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-11-02 14:42:35 -0500
+
+
+Started GET "/assets/fancybox/helpers/jquery.fancybox-buttons.css?body=1" for 127.0.0.1 at 2013-11-02 14:42:35 -0500
+
+
+Started GET "/assets/documentation.css?body=1" for 127.0.0.1 at 2013-11-02 14:42:35 -0500
+
+
+Started GET "/assets/fancybox/helpers/jquery.fancybox-thumbs.css?body=1" for 127.0.0.1 at 2013-11-02 14:42:35 -0500
+
+
+Started GET "/assets/fancybox/jquery.fancybox.css?body=1" for 127.0.0.1 at 2013-11-02 14:42:35 -0500
+
+
+Started GET "/assets/fonts.css?body=1" for 127.0.0.1 at 2013-11-02 14:42:35 -0500
+
+
+Started GET "/assets/ie7.css?body=1" for 127.0.0.1 at 2013-11-02 14:42:35 -0500
+
+
+Started GET "/assets/jquery_fancybox-buttons.css?body=1" for 127.0.0.1 at 2013-11-02 14:42:35 -0500
+
+
+Started GET "/assets/jquery_fancybox-thumbs.css?body=1" for 127.0.0.1 at 2013-11-02 14:42:35 -0500
+
+
+Started GET "/assets/jqueryfancybox.css?body=1" for 127.0.0.1 at 2013-11-02 14:42:35 -0500
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-11-02 14:42:35 -0500
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2013-11-02 14:42:35 -0500
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-11-02 14:42:35 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-02 14:42:35 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-02 14:42:35 -0500
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-11-02 14:42:36 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-02 14:42:36 -0500
+
+
+Started GET "/assets/map-road.jpg" for 127.0.0.1 at 2013-11-02 14:42:36 -0500
+
+
+Started GET "/assets/backgrounds/body_bg.png" for 127.0.0.1 at 2013-11-02 14:42:37 -0500
+
+
+Started GET "/assets/blue/logo.png" for 127.0.0.1 at 2013-11-02 14:42:37 -0500
+
+
+Started GET "/assets/backgrounds/ico/h-ico.png" for 127.0.0.1 at 2013-11-02 14:42:37 -0500
+
+
+Started GET "/assets/backgrounds/ico/h-ico-02.png" for 127.0.0.1 at 2013-11-02 14:42:37 -0500
+
+
+Started GET "/assets/backgrounds/ico/h-ico-03.png" for 127.0.0.1 at 2013-11-02 14:42:37 -0500
+
+
+Started GET "/assets/backgrounds/ico/h-ico-04.png" for 127.0.0.1 at 2013-11-02 14:42:37 -0500
+
+
+Started GET "/assets/backgrounds/wrapper-bg-ghrome.png" for 127.0.0.1 at 2013-11-02 14:42:37 -0500
+
+
+Started GET "/assets/backgrounds/upper-bg.png" for 127.0.0.1 at 2013-11-02 14:42:37 -0500
+
+
+Started GET "/assets/backgrounds/line.png" for 127.0.0.1 at 2013-11-02 14:42:37 -0500
+
+
+Started GET "/assets/backgrounds/ico/addr-ico.png" for 127.0.0.1 at 2013-11-02 14:42:37 -0500
+
+
+Started GET "/assets/backgrounds/ico/fax-ico.png" for 127.0.0.1 at 2013-11-02 14:42:37 -0500
+
+
+Started GET "/assets/backgrounds/ico/phone-ico.png" for 127.0.0.1 at 2013-11-02 14:42:38 -0500
+
+
+Started GET "/assets/backgrounds/ico/email-ico.png" for 127.0.0.1 at 2013-11-02 14:42:38 -0500
+
+
+Started GET "/assets/backgrounds/ico/site-ico.png" for 127.0.0.1 at 2013-11-02 14:42:38 -0500
+
+
+Started GET "/assets/backgrounds/ico/up.png" for 127.0.0.1 at 2013-11-02 14:42:38 -0500
+
+
+Started GET "/assets/backgrounds/subheader.png" for 127.0.0.1 at 2013-11-02 14:42:38 -0500
+
+
+Started GET "/assets/backgrounds/ico/close-upper.png" for 127.0.0.1 at 2013-11-02 14:42:38 -0500
+
+
+Started GET "/assets/backgrounds/left_wrapper.png" for 127.0.0.1 at 2013-11-02 14:42:38 -0500
+
+
+Started GET "/assets/backgrounds/sign-bg.png" for 127.0.0.1 at 2013-11-02 14:42:38 -0500
+
+
+Started GET "/assets/backgrounds/tagline.png" for 127.0.0.1 at 2013-11-02 14:42:38 -0500
+
+
+Started GET "/assets/backgrounds/li_main_nav.png" for 127.0.0.1 at 2013-11-02 14:42:38 -0500
+
+
+Started GET "/assets/blue/menu-hov.png" for 127.0.0.1 at 2013-11-02 14:42:38 -0500
+
+
+Started GET "/assets/backgrounds/shadow.png" for 127.0.0.1 at 2013-11-02 14:42:38 -0500
+
+
+Started GET "/assets/blue/menu-act.png" for 127.0.0.1 at 2013-11-02 14:42:38 -0500
+
+
+Started GET "/assets/backgrounds/ico/search_site.png" for 127.0.0.1 at 2013-11-02 14:42:38 -0500
+
+
+Started GET "/assets/backgrounds/slide-home-bg.png" for 127.0.0.1 at 2013-11-02 14:42:38 -0500
+
+
+Started GET "/assets/217x116/thumb-05.jpg" for 127.0.0.1 at 2013-11-02 14:42:39 -0500
+
+
+Started GET "/assets/217x116/thumb-06.jpg" for 127.0.0.1 at 2013-11-02 14:42:39 -0500
+
+
+Started GET "/assets/backgrounds/ico/clean.png" for 127.0.0.1 at 2013-11-02 14:42:39 -0500
+
+
+Started GET "/assets/backgrounds/ico/detail.png" for 127.0.0.1 at 2013-11-02 14:42:39 -0500
+
+
+Started GET "/assets/backgrounds/ico/flexible.png" for 127.0.0.1 at 2013-11-02 14:42:39 -0500
+
+
+Started GET "/assets/backgrounds/ico/responsive.png" for 127.0.0.1 at 2013-11-02 14:42:39 -0500
+
+
+Started GET "/assets/backgrounds/ico/support.png" for 127.0.0.1 at 2013-11-02 14:42:39 -0500
+
+
+Started GET "/assets/backgrounds/ico/over-zzom.png" for 127.0.0.1 at 2013-11-02 14:42:39 -0500
+
+
+Started GET "/assets/460x287/portfolio-460x287-01.jpg" for 127.0.0.1 at 2013-11-02 14:42:39 -0500
+
+
+Started GET "/assets/backgrounds/det-over.png" for 127.0.0.1 at 2013-11-02 14:42:39 -0500
+
+
+Started GET "/assets/460x287/portfolio-460x287-02.jpg" for 127.0.0.1 at 2013-11-02 14:42:39 -0500
+
+
+Started GET "/assets/460x287/portfolio-460x287-03.jpg" for 127.0.0.1 at 2013-11-02 14:42:39 -0500
+
+
+Started GET "/assets/460x287/portfolio-460x287-04.jpg" for 127.0.0.1 at 2013-11-02 14:42:39 -0500
+
+
+Started GET "/assets/460x287/portfolio-460x287-05.jpg" for 127.0.0.1 at 2013-11-02 14:42:39 -0500
+
+
+Started GET "/assets/460x287/portfolio-460x287-06.jpg" for 127.0.0.1 at 2013-11-02 14:42:39 -0500
+
+
+Started GET "/assets/460x287/portfolio-460x287-07.jpg" for 127.0.0.1 at 2013-11-02 14:42:39 -0500
+
+
+Started GET "/assets/460x287/portfolio-460x287-08.jpg" for 127.0.0.1 at 2013-11-02 14:42:39 -0500
+
+
+Started GET "/assets/460x287/portfolio-460x287-09.jpg" for 127.0.0.1 at 2013-11-02 14:42:39 -0500
+
+
+Started GET "/assets/460x287/portfolio-460x287-10.jpg" for 127.0.0.1 at 2013-11-02 14:42:40 -0500
+
+
+Started GET "/assets/backgrounds/footer-line.png" for 127.0.0.1 at 2013-11-02 14:42:40 -0500
+
+
+Started GET "/assets/blue/footer-logo.png" for 127.0.0.1 at 2013-11-02 14:42:40 -0500
+
+
+Started GET "/assets/44x44/latest-blog.jpg" for 127.0.0.1 at 2013-11-02 14:42:40 -0500
+
+
+Started GET "/assets/backgrounds/ico/arrow.png" for 127.0.0.1 at 2013-11-02 14:42:40 -0500
+
+
+Started GET "/assets/backgrounds/footer-bg.png" for 127.0.0.1 at 2013-11-02 14:42:40 -0500
+
+
+Started GET "/assets/backgrounds/ico/h-ico-05.png" for 127.0.0.1 at 2013-11-02 14:42:40 -0500
+
+
+Started GET "/assets/217x116/thumb-02.jpg" for 127.0.0.1 at 2013-11-02 14:42:40 -0500
+
+
+Started GET "/assets/217x116/thumb-03.jpg" for 127.0.0.1 at 2013-11-02 14:42:40 -0500
+
+
+Started GET "/assets/217x116/thumb-04.jpg" for 127.0.0.1 at 2013-11-02 14:42:40 -0500
