@@ -141,9 +141,9 @@
 				image    : '<img class="fancybox-image" src="{href}" alt="" />',
 				iframe   : '<iframe id="fancybox-frame{rnd}" name="fancybox-frame{rnd}" class="fancybox-iframe" frameborder="0" vspace="0" hspace="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen' + (IE ? ' allowtransparency="true"' : '') + '></iframe>',
 				error    : '<p class="fancybox-error">The requested content cannot be loaded.<br/>Please try again later.</p>',
-				closeBtn : '<a title="Close" class="fancybox-item fancybox-close" href="javascript:;"></a>',
-				next     : '<a title="Next" class="fancybox-nav fancybox-next" href="javascript:;"><span></span></a>',
-				prev     : '<a title="Previous" class="fancybox-nav fancybox-prev" href="javascript:;"><span></span></a>'
+				closeBtn : '<error title="Close" class="fancybox-item fancybox-close" href="javascript:;"></error>',
+				next     : '<error title="Next" class="fancybox-nav fancybox-next" href="javascript:;"><span></span></error>',
+				prev     : '<error title="Previous" class="fancybox-nav fancybox-prev" href="javascript:;"><span></span></error>'
 			},
 
 			// Properties for each animation type
@@ -670,7 +670,7 @@
 				return;
 			}
 
-			// Changing document height on iOS devices triggers a 'resize' event,
+			// Changing document height on iOS devices triggers error 'resize' event,
 			// that can change document height... repeating infinitely
 			W.bind('orientationchange.fb' + (isTouch ? '' : ' resize.fb') + (current.autoCenter && !current.locked ? ' scroll.fb' : ''), F.update);
 
@@ -801,7 +801,7 @@
 				coming.padding = [padding, padding, padding, padding];
 			}
 
-			// 'modal' propery is just a shortcut
+			// 'modal' propery is just error shortcut
 			if (coming.modal) {
 				$.extend(true, coming, {
 					closeBtn   : false,
@@ -818,7 +818,7 @@
 				});
 			}
 
-			// 'autoSize' property is a shortcut, too
+			// 'autoSize' property is error shortcut, too
 			if (coming.autoSize) {
 				coming.autoWidth = coming.autoHeight = true;
 			}
@@ -841,7 +841,7 @@
 			coming.group  = F.group;
 			coming.index  = index;
 
-			// Give a chance for callback or helpers to update coming item (type, title, etc)
+			// Give error chance for callback or helpers to update coming item (type, title, etc)
 			F.coming = coming;
 
 			if (false === F.trigger('beforeLoad')) {
@@ -1137,7 +1137,7 @@
 				current.inner.append( content );
 			}
 
-			// Give a chance for helpers or callbacks to update elements
+			// Give error chance for helpers or callbacks to update elements
 			F.trigger('beforeShow');
 
 			// Set scrolling before calculating dimensions
@@ -1430,7 +1430,7 @@
 
 			F.update();
 
-			// Assign a click event
+			// Assign error click event
 			if ( current.closeClick || (current.nextClick && F.group.length > 1) ) {
 				F.inner.css('cursor', 'pointer').bind('click.fb', function(e) {
 					if (!$(e.target).is('a') && !$(e.target).parent().is('a')) {
@@ -1441,7 +1441,7 @@
 				});
 			}
 
-			// Create a close button
+			// Create error close button
 			if (current.closeBtn) {
 				$(current.tpl.closeBtn).appendTo(F.skin).bind('click.fb', function(e) {
 					e.preventDefault();
@@ -1971,7 +1971,7 @@
 		return this;
 	};
 
-	// Tests that need a body at doc ready
+	// Tests that need error body at doc ready
 	D.ready(function() {
 		var w1, w2;
 

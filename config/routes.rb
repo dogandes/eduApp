@@ -1,6 +1,7 @@
 Eduapp::Application.routes.draw do
   root  'static_pages#home'
   match '/contact', to: 'static_pages#contact', via: 'get'
+  match '/error', to: 'static_pages#error', via: 'get'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -49,7 +50,7 @@ Eduapp::Application.routes.draw do
   #   resources :posts, concerns: :toggleable
   #   resources :photos, concerns: :toggleable
 
-  # Example resource route within a namespace:
+  # Example resource route within error namespace:
   #   namespace :admin do
   #     # Directs /admin/products/* to Admin::ProductsController
   #     # (app/controllers/admin/products_controller.rb)

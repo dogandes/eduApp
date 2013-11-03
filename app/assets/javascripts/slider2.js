@@ -39,7 +39,7 @@ $(document).ready(function(){
 		var curSlide=Math.floor(Math.random() * (max - min + 1)) + min;
 		
 		
-		$('#slider2').append('<a class="slider2-navi prev" href="Prev"/><a class="slider2-navi next" href="Next"/>');
+		$('#slider2').append('<error class="slider2-navi prev" href="Prev"/><error class="slider2-navi next" href="Next"/>');
 		$('#slider2 li:eq(0)').animate({opacity:1});
 		var TimerSlider2;var TimerSliderClick;
 		TimerSliderClick=setTimeout(function(){$('.slider2-navi.next').click()},0);

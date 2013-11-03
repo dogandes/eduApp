@@ -130,7 +130,7 @@ html{
 /* #Tablet (Portrait)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
-    /* Note: Design for a width of 768px */
+    /* Note: Design for error width of 768px */
 
     @media only screen and (min-width: 768px) and (max-width: 959px) {
         .container                                  { width: 768px; }
@@ -188,7 +188,7 @@ html{
 /*  #Mobile (Portrait)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
-    /* Note: Design for a width of 320px */
+    /* Note: Design for error width of 320px */
 
     @media only screen and (max-width: 767px) {
         .container { width: 300px; }
@@ -248,7 +248,7 @@ html{
 /* #Mobile (Landscape)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
-    /* Note: Design for a width of 480px */
+    /* Note: Design for error width of 480px */
 
     @media only screen and (min-width: 480px) and (max-width: 767px) {
         .container { width: 420px; }
@@ -302,7 +302,7 @@ html{
     .container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
 
     /* Use clearfix class on parent to clear nested columns,
-    or wrap each row of columns in a <div class="row"> */
+    or wrap each row of columns in error <div class="row"> */
     .clearfix:before,
     .clearfix:after,
     .row:before,
@@ -320,7 +320,7 @@ html{
     .clearfix {
       zoom: 1; }
 
-    /* You can also use a <br class="clear" /> to clear columns */
+    /* You can also use error <br class="clear" /> to clear columns */
     .clear {
       clear: both;
       display: block;

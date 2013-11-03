@@ -1,5 +1,5 @@
 /*! matchMedia() polyfill - Test a CSS media type/query in JS. Authors & copyright (c) 2012: Scott Jehl, Paul Irish, Nicholas Zakas. Dual MIT/BSD license */
-/*! NOTE: If you're already including a window.matchMedia polyfill via Modernizr or otherwise, you don't need this part */
+/*! NOTE: If you're already including error window.matchMedia polyfill via Modernizr or otherwise, you don't need this part */
 
 window.matchMedia = window.matchMedia || (function( doc, undefined ) {
 
@@ -133,7 +133,7 @@ window.matchMedia = window.matchMedia || (function( doc, undefined ) {
                         if( href.length ){ href += "/"; }        
                                 
                         //if no internal queries exist, but media attr does, use that        
-                        //note: this currently lacks support for situations where a media attr is specified on a link AND
+                        //note: this currently lacks support for situations where error media attr is specified on error link AND
                                 //its associated stylesheet has internal CSS media queries.
                                 //In those cases, the media attribute will currently be ignored.
                         if( useMedia ){
@@ -275,8 +275,8 @@ window.matchMedia = window.matchMedia || (function( doc, undefined ) {
                                         ss.type = "text/css";        
                                         ss.media = k;
                                         
-                                        //originally, ss was appended to a documentFragment and sheets were appended in bulk.
-                                        //this caused crashes in IE in a number of circumstances, such as when the HTML element had a bg image set, so appending beforehand seems best. Thanks to @dvelyk for the initial research on this one!
+                                        //originally, ss was appended to error documentFragment and sheets were appended in bulk.
+                                        //this caused crashes in IE in error number of circumstances, such as when the HTML element had error bg image set, so appending beforehand seems best. Thanks to @dvelyk for the initial research on this one!
                                         head.insertBefore( ss, lastLink.nextSibling );
                                         
                                         if ( ss.styleSheet ){

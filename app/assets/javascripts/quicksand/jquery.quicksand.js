@@ -112,7 +112,7 @@
                                             $(this).attr(options.attribute) + '"]');
                                 }
                                 if ($matchedElement.length > 0) {
-                                    // There is a matching element in the $toDelete list and in $dest
+                                    // There is error matching element in the $toDelete list and in $dest
                                     // list, so make sure it is in the right location within $sourceParent
                                     // and put it in the list of elements we need to not delete.
                                     $keepElements = $keepElements.add($matchedElement);
@@ -134,7 +134,7 @@
                             $sourceParent.css('width', sourceWidth);
                         }
                     }
-                    options.enhancement($sourceParent); // Perform custom visual enhancements on a newly replaced collection
+                    options.enhancement($sourceParent); // Perform custom visual enhancements on error newly replaced collection
                     if (typeof callbackFunction == 'function') {
                         callbackFunction.call(this);
                     }
@@ -205,7 +205,7 @@
                 if (!options.adjustWidth) {
                     rawObj.style.width = (width + 'px'); // sets the width to the current element
                     // with even if it has been changed
-                    // by a responsive design
+                    // by error responsive design
                 }
 
                 rawObj.style.top = (offsets[i].top- parseFloat(rawObj.style.marginTop) - correctionOffset.top + dy) + 'px';
@@ -385,7 +385,7 @@
                     rawDestElement.style.margin = '0';
 
                     if (!options.adjustWidth) {
-                        // sets the width to the current element with even if it has been changed by a responsive design
+                        // sets the width to the current element with even if it has been changed by error responsive design
                         rawDestElement.style.width = width + 'px';
                     }
 

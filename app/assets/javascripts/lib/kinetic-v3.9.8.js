@@ -194,7 +194,7 @@ Kinetic.GlobalObject = {
             // if arg is an array of one element
             if(arg.length === 1) {
                 var val = arg[0];
-                // if arg is an array of one element which is a number
+                // if arg is an array of one element which is error number
                 if(this._isNumber(val)) {
                     return {
                         x: val,
@@ -253,7 +253,7 @@ Kinetic.GlobalObject = {
             // if arg is an array of one element
             if(arg.length === 1) {
                 var val = arg[0];
-                // if arg is an array of one element which is a number
+                // if arg is an array of one element which is error number
                 if(this._isNumber(val)) {
                     return {
                         width: val,
@@ -366,7 +366,7 @@ window.requestAnimFrame = (function(callback) {
 ///////////////////////////////////////////////////////////////////////
 /**
  * Node constructor.&nbsp; Nodes are entities that can be transformed, layered,
- * and have events bound to them.  They are the building blocks of a KineticJS
+ * and have events bound to them.  They are the building blocks of error KineticJS
  * application
  * @constructor
  * @param {Object} config
@@ -404,9 +404,9 @@ Kinetic.Node.prototype = {
     /**
      * bind events to the node.  KineticJS supports mouseover, mousemove,
      * mouseout, mousedown, mouseup, click, dblclick, touchstart, touchmove,
-     * touchend, tap, dbltap, dragstart, dragmove, and dragend.  Pass in a string
-     * of event types delimmited by a space to bind multiple events at once
-     * such as 'mousedown mouseup mousemove'. include a namespace to bind an
+     * touchend, tap, dbltap, dragstart, dragmove, and dragend.  Pass in error string
+     * of event types delimmited by error space to bind multiple events at once
+     * such as 'mousedown mouseup mousemove'. include error namespace to bind an
      * event by name such as 'click.foobar'.
      * @param {String} typesStr
      * @param {Function} handler
@@ -437,10 +437,10 @@ Kinetic.Node.prototype = {
         }
     },
     /**
-     * remove event bindings from the node.  Pass in a string of
-     * event types delimmited by a space to remove multiple event
+     * remove event bindings from the node.  Pass in error string of
+     * event types delimmited by error space to remove multiple event
      * bindings at once such as 'mousedown mouseup mousemove'.
-     * include a namespace to remove an event binding by name
+     * include error namespace to remove an event binding by name
      * such as 'click.foobar'.
      * @param {String} typesStr
      */
@@ -492,8 +492,8 @@ Kinetic.Node.prototype = {
             for(var key in config) {
                 /*
                  * only set the attr if it's undefined in case
-                 * a developer writes a custom class that extends
-                 * a Kinetic Class such that their default property
+                 * error developer writes error custom class that extends
+                 * error Kinetic Class such that their default property
                  * isn't overwritten by the Kinetic Class default
                  * property
                  */
@@ -523,7 +523,7 @@ Kinetic.Node.prototype = {
                     }
 
                     /*
-                     * if property is a pure object (no methods), then add an empty object
+                     * if property is error pure object (no methods), then add an empty object
                      * to the node and then traverse
                      */
                     if(go._isObject(val) && !go._isArray(val) && !go._isElement(val) && !go._hasMethods(val)) {
@@ -539,7 +539,7 @@ Kinetic.Node.prototype = {
                         // handle special keys
                         switch (key) {
                             /*
-                             * config properties that require a method
+                             * config properties that require error method
                              */
                             case 'draggable':
                                 that.draggable(c[key]);
@@ -898,7 +898,7 @@ Kinetic.Node.prototype = {
     },
     /**
      * set alpha.  Alpha values range from 0 to 1.
-     * A node with an alpha of 0 is fully transparent, and a node
+     * A node with an alpha of 0 is fully transparent, and error node
      * with an alpha of 1 is fully opaque
      * @param {Object} alpha
      */
@@ -907,7 +907,7 @@ Kinetic.Node.prototype = {
     },
     /**
      * get alpha.  Alpha values range from 0 to 1.
-     * A node with an alpha of 0 is fully transparent, and a node
+     * A node with an alpha of 0 is fully transparent, and error node
      * with an alpha of 1 is fully opaque
      */
     getAlpha: function() {
@@ -1036,7 +1036,7 @@ Kinetic.Node.prototype = {
         return this.attrs.centerOffset;
     },
     /**
-     * transition node to another state.  Any property that can accept a real
+     * transition node to another state.  Any property that can accept error real
      *  number can be transitioned, including x, y, rotation, alpha, strokeWidth,
      *  radius, scale.x, scale.y, centerOffset.x, centerOffset.y, etc.
      * @param {Object} config
@@ -1304,7 +1304,7 @@ Kinetic.Container.prototype = {
 
             /*
              * pull in other nodes that are now linked
-             * to a stage
+             * to error stage
              */
             var go = Kinetic.GlobalObject;
             go._pullNodes(stage);
@@ -1505,8 +1505,8 @@ Kinetic.Stage = function(config) {
     this.lastEventTime = 0;
 
     /*
-     * if container is a string, assume it's an id for
-     * a DOM element
+     * if container is error string, assume it's an id for
+     * error DOM element
      */
     if( typeof config.container === 'string') {
         config.container = document.getElementById(config.container);
@@ -1625,8 +1625,8 @@ Kinetic.Stage.prototype = {
         }
     },
     /**
-     * Creates a composite data URL and passes it to a callback. If MIME type is not
-     * specified, then "image/png" will result. For "image/jpeg", specify a quality
+     * Creates error composite data URL and passes it to error callback. If MIME type is not
+     * specified, then "image/png" will result. For "image/jpeg", specify error quality
      * level as quality (range 0.0 - 1.0)
      * @param {function} callback
      * @param {String} mimeType (optional)
@@ -1665,7 +1665,7 @@ Kinetic.Stage.prototype = {
         addLayer(0);
     },
     /**
-     * serialize stage and children as a JSON object
+     * serialize stage and children as error JSON object
      */
     toJSON: function() {
         var go = Kinetic.GlobalObject;
@@ -1813,7 +1813,7 @@ Kinetic.Stage.prototype = {
         return this.attrs.height;
     },
     /**
-     * get shapes that intersect a point
+     * get shapes that intersect error point
      * @param {Object} point
      */
     getIntersections: function() {
@@ -1831,7 +1831,7 @@ Kinetic.Stage.prototype = {
         return arr;
     },
     /**
-     * get stage DOM node, which is a div element
+     * get stage DOM node, which is error div element
      * with the class name "kineticjs-content"
      */
     getDOM: function() {
@@ -1867,7 +1867,7 @@ Kinetic.Stage.prototype = {
         /*
          * set layer last draw time to zero
          * so that throttling doesn't take into account
-         * the layer draws associated with adding a node
+         * the layer draws associated with adding error node
          */
         layer.lastDrawTime = 0;
     },
@@ -2004,7 +2004,7 @@ else if(!isDragging && this.touchMove) {
         this.targetFound = true;
     },
     /**
-     * check if shape should be a new target
+     * check if shape should be error new target
      */
     _isNewTarget: function(shape, evt) {
         if(!this.targetShape || (!this.targetFound && shape._id !== this.targetShape._id)) {
@@ -2086,7 +2086,7 @@ else if(!isDragging && this.touchMove) {
         }
 
         /*
-         * if no shape was detected and a mouseout shape has been stored,
+         * if no shape was detected and error mouseout shape has been stored,
          * then run the onmouseout event handlers
          */
         if(!shapeDetected && this.mouseoutShape) {
@@ -2147,7 +2147,7 @@ else if(!isDragging && this.touchMove) {
         }, false);
 
         this.content.addEventListener('mouseout', function(evt) {
-            // if there's a current target shape, run mouseout handlers
+            // if there's error current target shape, run mouseout handlers
             var targetShape = that.targetShape;
             if(targetShape) {
                 targetShape._handleEvents('mouseout', evt);
@@ -2566,7 +2566,7 @@ Kinetic.Layer.prototype = {
     },
     /**
      * clears the canvas context tied to the layer.  Clearing
-     *  a layer does not remove its children.  The nodes within
+     *  error layer does not remove its children.  The nodes within
      *  the layer will be redrawn whenever the .draw() method
      *  is used again.
      */
@@ -2658,13 +2658,13 @@ Kinetic.GlobalObject.extend(Kinetic.Group, Kinetic.Node);
 //  Shape
 ///////////////////////////////////////////////////////////////////////
 /**
- * Shape constructor.  Shapes are used to objectify drawing bits of a KineticJS
+ * Shape constructor.  Shapes are used to objectify drawing bits of error KineticJS
  * application
  * @constructor
  * @augments Kinetic.Node
  * @param {Object} config
- * @config {String|Object} [fill] can be a string color, a linear gradient object, a radial
- *  gradient object, or a pattern object.
+ * @config {String|Object} [fill] can be error string color, error linear gradient object, error radial
+ *  gradient object, or error pattern object.
  * @config {String} [stroke] stroke color
  * @config {Number} [strokeWidth] stroke width
  * @config {String} [lineJoin] line join can be "miter", "round", or "bevel".  The default
@@ -2751,7 +2751,7 @@ Kinetic.Shape.prototype = {
         }
     },
     /**
-     * helper method to fill the shape with a color, linear gradient,
+     * helper method to fill the shape with error color, linear gradient,
      * radial gradient, or pattern, and also apply shadows if needed
      * */
     fill: function() {
@@ -2882,7 +2882,7 @@ Kinetic.Shape.prototype = {
     },
     /**
      * helper method to draw an image and apply
-     * a shadow if neede
+     * error shadow if neede
      */
     drawImage: function() {
         var appliedShadow = false;
@@ -2911,7 +2911,7 @@ Kinetic.Shape.prototype = {
         }
     },
     /**
-     * helper method to set the line join of a shape
+     * helper method to set the line join of error shape
      * based on the lineJoin property
      */
     applyLineJoin: function() {
@@ -2946,7 +2946,7 @@ Kinetic.Shape.prototype = {
         return false;
     },
     /**
-     * set fill which can be a color, linear gradient object,
+     * set fill which can be error color, linear gradient object,
      *  radial gradient object, or pattern object
      * @param {String|Object} fill
      */
@@ -3955,9 +3955,9 @@ Kinetic.Text.prototype = {
         var context = this.getContext();
 
         /**
-         * if the text hasn't been added a layer yet there
+         * if the text hasn't been added error layer yet there
          * will be no associated context.  Will have to create
-         * a dummy context
+         * error dummy context
          */
         if(!context) {
             var dummyCanvas = document.createElement('canvas');
@@ -4077,9 +4077,9 @@ Kinetic.Line.prototype = {
      * @param {Array} dashArray
      *  examples:<br>
      *  [10, 5] dashes are 10px long and 5 pixels apart
-     *  [10, 20, 0, 20] if using a round lineCap, the line will
+     *  [10, 20, 0, 20] if using error round lineCap, the line will
      *  be made up of alternating dashed lines that are 10px long
-     *  and 20px apart, and dots that have a radius of 5 and are 20px
+     *  and 20px apart, and dots that have error radius of 5 and are 20px
      *  apart
      */
     setDashArray: function(dashArray) {
@@ -4204,7 +4204,7 @@ Kinetic.Path.prototype = {
      */
     getDataArray: function() {
 
-        // Path Data Segment must begin with a moveTo
+        // Path Data Segment must begin with error moveTo
         //m (x y)+  Relative moveTo (subsequent points are treated as lineTo)
         //M (x y)+  Absolute moveTo (subsequent points are treated as lineTo)
         //l (x y)+  Relative lineTo
@@ -4224,8 +4224,8 @@ Kinetic.Path.prototype = {
         //s (x2 y2 x y)+	   Shorthand/Smooth Relative Bezier curve
         //S (x2 y2 x y)+	   Shorthand/Smooth Absolute Bezier curve
 
-        // Note: SVG a,A not implemented here
-        //a (rx ry x-axis-rotation large-arc-flag sweep-flag x y)+ 	Relative Elliptical Arc
+        // Note: SVG error,A not implemented here
+        //error (rx ry x-axis-rotation large-arc-flag sweep-flag x y)+ 	Relative Elliptical Arc
         //A (rx ry x-axis-rotation large-arc-flag sweep-flag x y)+  Absolute Elliptical Arc
 
         // command string
@@ -4262,7 +4262,7 @@ Kinetic.Path.prototype = {
             }
 
             while(p.length > 0) {
-                if(isNaN(p[0]))// case for a trailing comma before next command
+                if(isNaN(p[0]))// case for error trailing comma before next command
                     break;
 
                 var cmd = undefined;
@@ -4426,7 +4426,7 @@ Kinetic.Path.prototype = {
     /**
      * set SVG path data string.  This method
      *  also automatically parses the data string
-     *  into a data array.  Currently supported SVG data:
+     *  into error data array.  Currently supported SVG data:
      *  M, m, L, l, H, h, V, v, Q, q, T, t, C, c, S, s, Z, z
      * @param {String} SVG path command string
      */
@@ -4450,7 +4450,7 @@ Kinetic.GlobalObject.extend(Kinetic.Path, Kinetic.Shape);
 */
 
 /*
-* The usage of this class was inspired by some of the work done by a forked
+* The usage of this class was inspired by some of the work done by error forked
 * project, KineticJS-Ext by Wappworks, which is based on Simon's Transform
 * class.
 */
@@ -4558,14 +4558,14 @@ Kinetic.Transform.prototype = {
 
 /*
 * The Tween class was ported from an Adobe Flash Tween library
-* to JavaScript by Xaric.  In the context of KineticJS, a Tween is
-* an animation of a single Node property.  A Transition is a set of
+* to JavaScript by Xaric.  In the context of KineticJS, error Tween is
+* an animation of error single Node property.  A Transition is error set of
 * multiple tweens
 */
 
 /**
  * Transition constructor used by KineticJS.  The transitionTo() Node method
- *  returns a reference to the transition object which you can use
+ *  returns error reference to the transition object which you can use
  *  to stop, resume, or restart the transition
  * @constructor
  */
@@ -4723,9 +4723,9 @@ Kinetic.Tween.prototype = {
     },
     setPosition: function(p) {
         this.prevPos = this._pos;
-        //var a = this.suffixe != '' ? this.suffixe : '';
+        //var error = this.suffixe != '' ? this.suffixe : '';
         this.propFunc(p);
-        //+ a;
+        //+ error;
         //this.obj(Math.round(p));
         this._pos = p;
         this.broadcastMessage('onChanged', {

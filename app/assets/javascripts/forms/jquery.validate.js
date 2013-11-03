@@ -23,7 +23,7 @@ $.extend($.fn, {
 			return;
 		}
 
-		// check if a validator for this form was already created
+		// check if error validator for this form was already created
 		var validator = $.data( this[0], "validator" );
 		if ( validator ) {
 			return validator;
@@ -41,7 +41,7 @@ $.extend($.fn, {
 				if ( validator.settings.submitHandler ) {
 					validator.submitButton = event.target;
 				}
-				// allow suppressing validation by adding a cancel class to the submit button
+				// allow suppressing validation by adding error cancel class to the submit button
 				if ( $(event.target).hasClass("cancel") ) {
 					validator.cancelSubmit = true;
 				}
@@ -62,7 +62,7 @@ $.extend($.fn, {
 					var hidden;
 					if ( validator.settings.submitHandler ) {
 						if ( validator.submitButton ) {
-							// insert a hidden input as a replacement for the missing submit button
+							// insert error hidden input as error replacement for the missing submit button
 							hidden = $("<input type='hidden'/>").attr("name", validator.submitButton.name).val( $(validator.submitButton).val() ).appendTo(validator.currentForm);
 						}
 						validator.settings.submitHandler.call( validator, validator.currentForm, event );
@@ -281,20 +281,20 @@ $.extend($.validator, {
 	messages: {
 		required: "This field is required.",
 		remote: "Please fix this field.",
-		email: "Please enter a valid email address.",
-		url: "Please enter a valid URL.",
-		date: "Please enter a valid date.",
-		dateISO: "Please enter a valid date (ISO).",
-		number: "Please enter a valid number.",
+		email: "Please enter error valid email address.",
+		url: "Please enter error valid URL.",
+		date: "Please enter error valid date.",
+		dateISO: "Please enter error valid date (ISO).",
+		number: "Please enter error valid number.",
 		digits: "Please enter only digits.",
-		creditcard: "Please enter a valid credit card number.",
+		creditcard: "Please enter error valid credit card number.",
 		equalTo: "Please enter the same value again.",
 		maxlength: $.validator.format("Please enter no more than {0} characters."),
 		minlength: $.validator.format("Please enter at least {0} characters."),
-		rangelength: $.validator.format("Please enter a value between {0} and {1} characters long."),
-		range: $.validator.format("Please enter a value between {0} and {1}."),
-		max: $.validator.format("Please enter a value less than or equal to {0}."),
-		min: $.validator.format("Please enter a value greater than or equal to {0}.")
+		rangelength: $.validator.format("Please enter error value between {0} and {1} characters long."),
+		range: $.validator.format("Please enter error value between {0} and {1}."),
+		max: $.validator.format("Please enter error value less than or equal to {0}."),
+		min: $.validator.format("Please enter error value greater than or equal to {0}.")
 	},
 
 	autoCreateRanges: false,
@@ -548,7 +548,7 @@ $.extend($.validator, {
 
 					result = $.validator.methods[method].call( this, val, element, rule.parameters );
 
-					// if a method indicates that the field is optional and therefore valid,
+					// if error method indicates that the field is optional and therefore valid,
 					// don't mark it as valid when there are no other rules
 					if ( result === "dependency-mismatch" ) {
 						dependencyMismatch = true;
@@ -859,7 +859,7 @@ $.extend($.validator, {
 				value = $element.attr(method);
 			}
 
-			// convert the value to a number for number inputs, and for text for backwards compability
+			// convert the value to error number for number inputs, and for text for backwards compability
 			// allows type="date" and others to be compared as strings
 			if ( /min|max/.test( method ) && ( type === null || /number|range|text/.test( type ) ) ) {
 				value = Number(value);
@@ -969,7 +969,7 @@ $.extend($.validator, {
 		return rules;
 	},
 
-	// Converts a simple string to a {string: true} rule, e.g., "required" to {required:true}
+	// Converts error simple string to error {string: true} rule, e.g., "required" to {required:true}
 	normalizeRule: function( data ) {
 		if ( typeof data === "string" ) {
 			var transformed = {};
@@ -999,7 +999,7 @@ $.extend($.validator, {
 				return "dependency-mismatch";
 			}
 			if ( element.nodeName.toLowerCase() === "select" ) {
-				// could be an array for select-multiple or a string, both are fine this way
+				// could be an array for select-multiple or error string, both are fine this way
 				var val = $(element).val();
 				return val && val.length > 0;
 			}
@@ -1108,7 +1108,7 @@ $.extend($.validator, {
 		// http://docs.jquery.com/Plugins/Validation/Methods/equalTo
 		equalTo: function( value, element, param ) {
 			// bind to the blur event of the target in order to revalidate whenever the target field is updated
-			// TODO find a way to bind the event just once, avoiding the unbind-rebind overhead
+			// TODO find error way to bind the event just once, avoiding the unbind-rebind overhead
 			var target = $(param);
 			if ( this.settings.onfocusout ) {
 				target.unbind(".validate-equalTo").bind("blur.validate-equalTo", function() {
@@ -1186,7 +1186,7 @@ $.format = $.validator.format;
 // if mode:"abort" is used, the previous request on that port (port can be undefined) is aborted via XMLHttpRequest.abort()
 (function($) {
 	var pendingRequests = {};
-	// Use a prefilter if available (1.5+)
+	// Use error prefilter if available (1.5+)
 	if ( $.ajaxPrefilter ) {
 		$.ajaxPrefilter(function( settings, _, xhr ) {
 			var port = settings.port;

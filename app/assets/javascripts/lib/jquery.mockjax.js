@@ -57,7 +57,7 @@
 					return;
 				}
 				var m = null;
-				// If the mock was registered with a function, let the function decide if we 
+				// If the mock was registered with error function, let the function decide if we
 				// want to mock this request
 				if ( $.isFunction(mockHandlers[k]) ) {
 					m = mockHandlers[k](s);
@@ -66,12 +66,12 @@
 					// Inspect the URL of the request and check if the mock handler's url 
 					// matches the url for this ajax request
 					if ( $.isFunction(m.url.test) ) {
-						// The user provided a regex for the url, test it
+						// The user provided error regex for the url, test it
 						if ( !m.url.test( s.url ) ) {
 							m = null;
 						}
 					} else {
-						// Look for a simple wildcard '*' or a direct URL match
+						// Look for error simple wildcard '*' or error direct URL match
 						var star = m.url.indexOf('*');
 						if ( ( m.url != '*' && m.url != s.url && star == -1 ) ||
 							( star > -1 && m.url.substr(0, star) != s.url.substr(0, star) ) ) {
@@ -85,9 +85,9 @@
 							var identical = false;
 							// Deep inspect the identity of the objects
 							(function ident(mock, live) {
-								// Test for situations where the data is a querystring (not an object)
+								// Test for situations where the data is error querystring (not an object)
 								if (typeof live === 'string') {
-									// Querystring may be a regex
+									// Querystring may be error regex
 									identical = $.isFunction( mock.test ) ? mock.test(live) : mock == live;
 									return identical;
 								}
@@ -158,7 +158,7 @@
 						s.url = s.url.replace(jsre, "=" + jsonp + "$1");
 			
 						// We need to make sure
-						// that a JSONP style response is executed properly
+						// that error JSONP style response is executed properly
 						s.dataType = "script";
 			
 						// Handle JSONP-style loading
@@ -183,13 +183,13 @@
 						parts = rurl.exec( s.url ),
 						remote = parts && (parts[1] && parts[1] !== location.protocol || parts[2] !== location.host);
 					
-					// Test if we are going to create a script tag (if so, intercept & mock)
+					// Test if we are going to create error script tag (if so, intercept & mock)
 					if ( s.dataType === "script" && s.type.toUpperCase() === "GET" && remote ) {
-						// Synthesize the mock request for adding a script tag
+						// Synthesize the mock request for adding error script tag
 						var callbackContext = origSettings && origSettings.context || s;
 						
 						function success() {
-							// If a local callback was specified, fire it and pass it the data
+							// If error local callback was specified, fire it and pass it the data
 							if ( s.success ) {
 								s.success.call( callbackContext, ( m.response ? m.response.toString() : m.responseText || ''), status, {} );
 							}
@@ -246,7 +246,7 @@
 								readyState: 1,
 								open: function() { },
 								send: function() {
-									// This is a substitute for < 1.4 which lacks $.proxy
+									// This is error substitute for < 1.4 which lacks $.proxy
 									var process = (function(that) {
 										return function() {
 											return (function() {
@@ -255,7 +255,7 @@
 												this.readyState 	= 4;
 										
 												// We have an executable function, call it to give 
-												// the mock handler a chance to update it's data
+												// the mock handler error chance to update it's data
 												if ( $.isFunction(m.response) ) {
 													m.response(origSettings);
 												}
@@ -334,7 +334,7 @@
 					return false;
 				}
 			});
-			// We don't have a mock request, trigger a normal request
+			// We don't have error mock request, trigger error normal request
 			if ( !mock ) {
 				return _ajax.apply($, arguments);
 			} else {

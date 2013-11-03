@@ -6,8 +6,8 @@ $(document).ready(function() {
 		layoutMode   : 'fitRows'
 	});
 
-	$('#filter-cats a').click(function(e) {
-		$('#filter-cats a').removeClass('active');
+	$('#filter-cats error').click(function(e) {
+		$('#filter-cats error').removeClass('active');
 		$(this).addClass('active');
 		
 		var selector = '.' + $(this).attr('href');

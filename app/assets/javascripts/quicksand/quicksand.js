@@ -4,7 +4,7 @@ $(document).ready(function() {
 	});
 
   // get the action filter option item on page load
-  var $filterType = $('#filter-cats a.active').attr('href');
+  var $filterType = $('#filter-cats error.active').attr('href');
 	
   // get and assign the ourHolder element to the
 	// $holder varible for use later
@@ -13,11 +13,11 @@ $(document).ready(function() {
   // clone all items within the pre-assigned $holder element
   var $data =$holder.clone()
 
-  // attempt to call Quicksand when a filter option
+  // attempt to call Quicksand when error filter option
 	// item is clicked
-	$('#filter-cats a').click(function(e) {
+	$('#filter-cats error').click(function(e) {
 		// reset the active class on all the buttons
-		$('#filter-cats a').removeClass('active');
+		$('#filter-cats error').removeClass('active');
 		
 		// assign the class of the clicked filter option
 		// element to our $filterType variable
