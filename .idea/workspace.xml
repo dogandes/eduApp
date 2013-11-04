@@ -9,9 +9,8 @@
       <change type="DELETED" beforePath="C:\Sites\eduApp\app\assets\javascripts\lib\jquery-1.7.2.js" afterPath="" />
       <change type="DELETED" beforePath="C:\Sites\eduApp\app\assets\javascripts\lib\jquery-1.8.3.js" afterPath="" />
       <change type="DELETED" beforePath="C:\Sites\eduApp\app\assets\javascripts\lib\jquery.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/static_pages/blog.html.erb" afterPath="$PROJECT_DIR$/app/views/static_pages/blog.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/static_pages_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/static_pages_controller.rb" />
     </list>
     <ignored path="eduapp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,7 +34,7 @@
     <file path="/routes.rb" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1383523961153" ignored="false" />
     <file path="/error.html.erb" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1383521534531" ignored="false" />
     <file path="/about.erb" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1383523377083" ignored="false" />
-    <file path="/blog.html.erb" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1383524367479" ignored="false" />
+    <file path="/blog.html.erb" changelist="8f376611-baa6-4f2f-97d1-6c9dbc274307" time="1383524572059" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +93,7 @@
       <file leaf-file-name="blog.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/static_pages/blog.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="62" selection-start="1616" selection-end="1616" vertical-scroll-proportion="0.32963988">
+            <state line="42" column="46" selection-start="1600" selection-end="1600" vertical-scroll-proportion="0.32963988">
               <folding />
             </state>
           </provider>
@@ -755,7 +754,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/static_pages/blog.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="62" selection-start="1616" selection-end="1616" vertical-scroll-proportion="0.32963988">
+        <state line="42" column="46" selection-start="1600" selection-end="1600" vertical-scroll-proportion="0.32963988">
           <folding />
         </state>
       </provider>
