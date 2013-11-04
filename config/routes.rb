@@ -2,6 +2,7 @@ Eduapp::Application.routes.draw do
   root  'static_pages#home'
   match '/contact', to: 'static_pages#contact', via: 'get'
   match '/error', to: 'static_pages#error', via: 'get'
+  match '/about', to: 'static_pages#about', via: 'get'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

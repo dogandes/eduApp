@@ -5,4 +5,6 @@ class StaticPagesController < ApplicationController
   end
   def error
   end
+  def about
+  end
 end
