@@ -11,4 +11,6 @@ class StaticPagesController < ApplicationController
   end
   def blogPage
   end
+  def faq
+  end
 end

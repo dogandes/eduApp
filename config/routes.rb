@@ -5,6 +5,7 @@ Eduapp::Application.routes.draw do
   match '/about', to: 'static_pages#about', via: 'get'
   match '/blog', to: 'static_pages#blog', via: 'get'
   match '/blogPage', to: 'static_pages#blogPage', via: 'get'
+  match '/faq', to: 'static_pages#faq', via: 'get'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
