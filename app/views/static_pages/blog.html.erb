@@ -63,8 +63,8 @@
     </div>
     <div class="post-body">
       <div class="post-image">
-        <a href="images/549x209/sl2.jpg" class="fancybox post-preview"><img src="images/549x209/sl2.jpg" alt=""> <span class="over-bg-portfolio"><!-- over --></span></a>
-        <a href="images/549x209/sl1.jpg" class="fancybox post-preview"><img src="images/549x209/sl1.jpg" alt=""> <span class="over-bg-portfolio"><!-- over --></span></a>
+        <a href="assets/549x209/sl2.jpg" class="fancybox post-preview"><%= image_tag('549x209/sl2.jpg', alt: '')%> <span class="over-bg-portfolio"><!-- over --></span></a>
+        <a href="assets/549x209/sl1.jpg" class="fancybox post-preview"><%= image_tag('549x209/sl1.jpg', alt: '')%> <span class="over-bg-portfolio"><!-- over --></span></a>
       </div>
       <div class="post-details">
         <span class="post-autor">by Roman Polyarush</span>
@@ -164,7 +164,7 @@
     </div>
     <div class="post-body">
       <div class="post-image">
-        <a href="images/large/im12.jpg" class="fancybox post-preview"><img src="images/549x209/img-549x209-03.jpg" alt=""> <span class="over-bg-portfolio"><!-- over --></span></a>
+        <a href="assets/large/im12.jpg" class="fancybox post-preview"><%= image_tag('549x209/img-549x209-03.jpg', alt: '')%> <span class="over-bg-portfolio"><!-- over --></span></a>
       </div>
       <div class="post-details">
         <span class="post-autor">by Roman Polyarush</span>
@@ -201,17 +201,17 @@
   <h3 class="sidebar-titles">RECENT POSTS</h3>
   <ul class="recent-posts-side">
     <li>
-      <a href="images/60x43/im-60x43.jpg" class="fancybox left-image"><img src="images/60x43/im-60x43.jpg" alt=""> <span class="over-bg-portfolio"></span></a>
+      <a href="assets/60x43/im-60x43.jpg" class="fancybox left-image"><%= image_tag('60x43/im-60x43.jpg', alt: '')%><span class="over-bg-portfolio"></span></a>
       <a href="#">There are many variations.</a>
       <em>11 March 2012</em>
     </li>
     <li>
-      <a href="images/60x43/im-60x43-02.jpg" class="fancybox left-image"><img src="images/60x43/im-60x43-02.jpg" alt=""> <span class="over-bg-portfolio"></span></a>
+      <a href="assets/60x43/im-60x43-02.jpg" class="fancybox left-image"><%= image_tag('60x43/im-60x43-02.jpg', alt: '')%> <span class="over-bg-portfolio"></span></a>
       <a href="#">Randomised words which don't look even slightly.</a>
       <em>5 March 2012</em>
     </li>
     <li>
-      <a href="images/60x43/im-60x43-03.jpg" class="fancybox left-image"><img src="images/60x43/im-60x43-03.jpg" alt=""> <span class="over-bg-portfolio"></span></a>
+      <a href="assets/60x43/im-60x43-03.jpg" class="fancybox left-image"><%= image_tag('60x43/im-60x43-03.jpg', alt: '')%> <span class="over-bg-portfolio"></span></a>
       <a href="#">Established fact that a reader will be distracted.</a>
       <em>1 March 2012</em>
     </li>
@@ -284,15 +284,17 @@
 
   <h3 class="sidebar-titles">Flickr feed</h3>
   <div class="flickr-feed">
-    <a href="#"><img src="images/52x52/flickr.jpg" alt=""></a>
-    <a href="#"><img src="images/52x52/flickr-02.jpg" alt=""></a>
-    <a href="#"><img src="images/52x52/flickr-03.jpg" alt=""></a>
-    <a href="#"><img src="images/52x52/flickr-04.jpg" alt=""></a>
+    <%= link_to image_tag('52x52/flickr.jpg', alt: ''), '#' %>
+    <%= link_to image_tag('52x52/flickr-02.jpg', alt: ''), '#' %>
+    <%= link_to image_tag('52x52/flickr-03.jpg', alt: ''), '#' %>
+    <%= link_to image_tag('52x52/flickr-04.jpg', alt: ''), '#' %>
 
-    <a href="#"><img src="images/52x52/flickr-05.jpg" alt=""></a>
-    <a href="#"><img src="images/52x52/flickr-06.jpg" alt=""></a>
-    <a href="#"><img src="images/52x52/flickr-07.jpg" alt=""></a>
-    <a href="#"><img src="images/52x52/flickr-08.jpg" alt=""></a>
+
+    <%= link_to image_tag('52x52/flickr-05.jpg', alt: ''), '#' %>
+    <%= link_to image_tag('52x52/flickr-06.jpg', alt: ''), '#' %>
+    <%= link_to image_tag('52x52/flickr-07.jpg', alt: ''), '#' %>
+    <%= link_to image_tag('52x52/flickr-08.jpg', alt: ''), '#' %>
+
   </div>
 
 </div>
