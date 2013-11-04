@@ -13,4 +13,8 @@ class StaticPagesController < ApplicationController
   end
   def faq
   end
+  def portfolioPage
+  end
+  def typography
+  end
 end
